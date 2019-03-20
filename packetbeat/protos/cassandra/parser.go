@@ -4,11 +4,11 @@ import (
 	"errors"
 	"time"
 
-	"github.com/elastic/beats/libbeat/common/streambuf"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/packetbeat/protos/applayer"
+	"github.com/wangjia184/beats/libbeat/common/streambuf"
+	"github.com/wangjia184/beats/libbeat/logp"
+	"github.com/wangjia184/beats/packetbeat/protos/applayer"
 
-	gocql "github.com/elastic/beats/packetbeat/protos/cassandra/internal/gocql"
+	gocql "github.com/wangjia184/beats/packetbeat/protos/cassandra/internal/gocql"
 )
 
 type parser struct {

@@ -5,7 +5,7 @@ package prospector
 import (
 	"testing"
 
-	"github.com/elastic/beats/libbeat/common/match"
+	"github.com/wangjia184/beats/libbeat/common/match"
 	"github.com/stretchr/testify/assert"
 )
 

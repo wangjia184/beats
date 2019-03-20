@@ -5,13 +5,13 @@ import (
 	"sync"
 	"time"
 
-	cfg "github.com/elastic/beats/filebeat/config"
-	"github.com/elastic/beats/filebeat/harvester/reader"
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/common/match"
+	cfg "github.com/wangjia184/beats/filebeat/config"
+	"github.com/wangjia184/beats/filebeat/harvester/reader"
+	"github.com/wangjia184/beats/libbeat/common"
+	"github.com/wangjia184/beats/libbeat/common/match"
 
 	"github.com/dustin/go-humanize"
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/wangjia184/beats/libbeat/logp"
 )
 
 var (

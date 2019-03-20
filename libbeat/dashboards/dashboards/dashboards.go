@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/elastic/beats/libbeat/common"
+	"github.com/wangjia184/beats/libbeat/common"
 )
 
 func ImportDashboards(beatName, beatVersion string,

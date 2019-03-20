@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"os"
 
-	lbeat "github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/dashboards/dashboards"
-	"github.com/elastic/beats/libbeat/outputs/elasticsearch"
+	lbeat "github.com/wangjia184/beats/libbeat/beat"
+	"github.com/wangjia184/beats/libbeat/common"
+	"github.com/wangjia184/beats/libbeat/dashboards/dashboards"
+	"github.com/wangjia184/beats/libbeat/outputs/elasticsearch"
 )
 
 var usage = fmt.Sprintf(`

@@ -7,9 +7,9 @@ import (
 	"strconv"
 	"syscall"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/winlogbeat/sys"
+	"github.com/wangjia184/beats/libbeat/common"
+	"github.com/wangjia184/beats/libbeat/logp"
+	"github.com/wangjia184/beats/winlogbeat/sys"
 )
 
 // Debug selectors used in this package.

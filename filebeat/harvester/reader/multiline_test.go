@@ -10,8 +10,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/elastic/beats/filebeat/harvester/encoding"
-	"github.com/elastic/beats/libbeat/common/match"
+	"github.com/wangjia184/beats/filebeat/harvester/encoding"
+	"github.com/wangjia184/beats/libbeat/common/match"
 	"github.com/stretchr/testify/assert"
 )
 

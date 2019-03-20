@@ -7,8 +7,8 @@ package cassandra
 import (
 	"errors"
 	"fmt"
-	"github.com/elastic/beats/libbeat/common/streambuf"
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/wangjia184/beats/libbeat/common/streambuf"
+	"github.com/wangjia184/beats/libbeat/logp"
 	"runtime"
 	"sync"
 )

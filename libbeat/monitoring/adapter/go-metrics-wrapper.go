@@ -1,7 +1,7 @@
 package adapter
 
 import (
-	"github.com/elastic/beats/libbeat/monitoring"
+	"github.com/wangjia184/beats/libbeat/monitoring"
 	metrics "github.com/rcrowley/go-metrics"
 )
 

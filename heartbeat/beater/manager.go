@@ -7,14 +7,14 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/libbeat/publisher"
+	"github.com/wangjia184/beats/libbeat/common"
+	"github.com/wangjia184/beats/libbeat/logp"
+	"github.com/wangjia184/beats/libbeat/publisher"
 
-	"github.com/elastic/beats/heartbeat/monitors"
-	"github.com/elastic/beats/heartbeat/scheduler"
-	"github.com/elastic/beats/heartbeat/scheduler/schedule"
-	"github.com/elastic/beats/heartbeat/watcher"
+	"github.com/wangjia184/beats/heartbeat/monitors"
+	"github.com/wangjia184/beats/heartbeat/scheduler"
+	"github.com/wangjia184/beats/heartbeat/scheduler/schedule"
+	"github.com/wangjia184/beats/heartbeat/watcher"
 )
 
 type MonitorManager struct {

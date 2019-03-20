@@ -7,10 +7,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/metricbeat/mb"
-	"github.com/elastic/beats/metricbeat/mb/module"
+	"github.com/wangjia184/beats/libbeat/beat"
+	"github.com/wangjia184/beats/libbeat/common"
+	"github.com/wangjia184/beats/metricbeat/mb"
+	"github.com/wangjia184/beats/metricbeat/mb/module"
 )
 
 // ExampleWrapper demonstrates how to create a single Wrapper

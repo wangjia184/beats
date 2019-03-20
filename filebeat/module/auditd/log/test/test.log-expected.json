@@ -8,7 +8,7 @@
         "_source": {
             "offset": 172,
             "input_type": "log",
-            "source": "/Users/me/go/src/github.com/elastic/beats/filebeat/module/auditd/log/test/test.log",
+            "source": "/Users/me/go/src/github.com/wangjia184/beats/filebeat/module/auditd/log/test/test.log",
             "fileset": {
                 "module": "auditd",
                 "name": "log"
@@ -46,7 +46,7 @@
         "_source": {
             "offset": 534,
             "input_type": "log",
-            "source": "/Users/me/go/src/github.com/elastic/beats/filebeat/module/auditd/log/test/test.log",
+            "source": "/Users/me/go/src/github.com/wangjia184/beats/filebeat/module/auditd/log/test/test.log",
             "fileset": {
                 "module": "auditd",
                 "name": "log"

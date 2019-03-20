@@ -9,9 +9,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	mbtest "github.com/elastic/beats/metricbeat/mb/testing"
+	mbtest "github.com/wangjia184/beats/metricbeat/mb/testing"
 
-	"github.com/elastic/beats/libbeat/common"
+	"github.com/wangjia184/beats/libbeat/common"
 	"github.com/stretchr/testify/assert"
 )
 

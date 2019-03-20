@@ -3,9 +3,9 @@ package lb
 import (
 	"time"
 
-	"github.com/elastic/beats/libbeat/common/op"
-	"github.com/elastic/beats/libbeat/outputs"
-	"github.com/elastic/beats/libbeat/outputs/mode"
+	"github.com/wangjia184/beats/libbeat/common/op"
+	"github.com/wangjia184/beats/libbeat/outputs"
+	"github.com/wangjia184/beats/libbeat/outputs/mode"
 )
 
 // context distributes event messages among multiple workers. It implements the

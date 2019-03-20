@@ -3,7 +3,7 @@ package reader
 import (
 	"testing"
 
-	"github.com/elastic/beats/libbeat/common"
+	"github.com/wangjia184/beats/libbeat/common"
 	"github.com/stretchr/testify/assert"
 )
 

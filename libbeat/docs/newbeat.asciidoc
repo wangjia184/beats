@@ -38,7 +38,7 @@ people learned Go by contributing to Packetbeat and libbeat, including the
 original Packetbeat authors.
 
 For general information about contributing to Beats, see our
-https://github.com/elastic/beats/blob/master/CONTRIBUTING.md[Contributing Guide].
+https://github.com/wangjia184/beats/blob/master/CONTRIBUTING.md[Contributing Guide].
 
 After you have https://golang.org/doc/install[installed Go] and set up the
 https://golang.org/doc/code.html#GOPATH[GOPATH] environment variable to point to
@@ -99,7 +99,7 @@ The following example shows an event object in Lsbeat:
   "filename": "winlogbeat.yml",
   "filesize": 2895,
   "modtime": "2016-07-13T20:56:21.000Z",
-  "path": "./vendor/github.com/elastic/beats/winlogbeat/winlogbeat.yml",
+  "path": "./vendor/github.com/wangjia184/beats/winlogbeat/winlogbeat.yml",
   "type": "lsbeat"
 }
 
@@ -113,7 +113,7 @@ The following example shows an event object in Lsbeat:
   "filename": "system",
   "filesize": 238,
   "modtime": "2016-07-13T20:56:21.000Z",
-  "path": "./vendor/github.com/elastic/beats/winlogbeat/tests/system",
+  "path": "./vendor/github.com/wangjia184/beats/winlogbeat/tests/system",
   "type": "lsbeat"
 }
 ----------------------------------------------------------------------
@@ -141,7 +141,7 @@ Run python and specify the path to the Beat generator:
 
 [source,shell]
 --------------------
-python $GOPATH/src/github.com/elastic/beats/script/generate.py
+python $GOPATH/src/github.com/wangjia184/beats/script/generate.py
 --------------------
 
 Python will prompt you to enter information about your Beat. For the `project_name`, enter `Countbeat`.
@@ -476,7 +476,7 @@ package main
 import (
 	"os"
 
-	"github.com/elastic/beats/libbeat/beat"
+	"github.com/wangjia184/beats/libbeat/beat"
 
 	"github.com/kimjmin/countbeat/beater"
 )

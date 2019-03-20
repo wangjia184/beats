@@ -23,19 +23,19 @@ test: prepare-test
 
 prepare-test: python-env
 	# Makes sure to use current version of beats for testing
-	mkdir -p ${BUILD_DIR}/src/github.com/elastic/beats/
-	rsync -a --exclude=build ${PWD}/../../* ${BUILD_DIR}/src/github.com/elastic/beats/
+	mkdir -p ${BUILD_DIR}/src/github.com/wangjia184/beats/
+	rsync -a --exclude=build ${PWD}/../../* ${BUILD_DIR}/src/github.com/wangjia184/beats/
 
 	mkdir -p ${BEAT_PATH}
 	export GOPATH=${PWD}/build ; \
-	. ${PYTHON_ENV}/bin/activate && python ${PWD}/build/src/github.com/elastic/beats/script/generate.py --type=${BEAT_TYPE} --project_name=Testbeat --github_name=ruflin --beat_path=beatpath/testbeat --full_name="Nicolas Ruflin"
+	. ${PYTHON_ENV}/bin/activate && python ${PWD}/build/src/github.com/wangjia184/beats/script/generate.py --type=${BEAT_TYPE} --project_name=Testbeat --github_name=ruflin --beat_path=beatpath/testbeat --full_name="Nicolas Ruflin"
 
 # Runs test build for the created beat
 .PHONY: test-build
 test-build: test
 
 	# Copy dev tools
-	cp -r ${PWD}/../../../dev-tools ${BEAT_PATH}/vendor/github.com/elastic/beats/
+	cp -r ${PWD}/../../../dev-tools ${BEAT_PATH}/vendor/github.com/wangjia184/beats/
 
 	cd ${BEAT_PATH}/dev-tools/packer ; \
 	make deps ; \

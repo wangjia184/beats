@@ -9,9 +9,9 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/wangjia184/beats/libbeat/logp"
 
-	"github.com/elastic/beats/packetbeat/config"
+	"github.com/wangjia184/beats/packetbeat/config"
 
 	"github.com/tsg/gopacket"
 	"github.com/tsg/gopacket/layers"

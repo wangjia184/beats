@@ -3,12 +3,12 @@ package main
 import (
 	"os"
 
-	"github.com/elastic/beats/libbeat/beat"
+	"github.com/wangjia184/beats/libbeat/beat"
 
-	"github.com/elastic/beats/heartbeat/beater"
+	"github.com/wangjia184/beats/heartbeat/beater"
 
 	// register default heartbeat monitors
-	_ "github.com/elastic/beats/heartbeat/monitors/defaults"
+	_ "github.com/wangjia184/beats/heartbeat/monitors/defaults"
 )
 
 func main() {

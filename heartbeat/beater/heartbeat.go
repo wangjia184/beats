@@ -4,14 +4,14 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/libbeat/publisher"
+	"github.com/wangjia184/beats/libbeat/beat"
+	"github.com/wangjia184/beats/libbeat/common"
+	"github.com/wangjia184/beats/libbeat/logp"
+	"github.com/wangjia184/beats/libbeat/publisher"
 
-	"github.com/elastic/beats/heartbeat/config"
-	"github.com/elastic/beats/heartbeat/monitors"
-	"github.com/elastic/beats/heartbeat/scheduler"
+	"github.com/wangjia184/beats/heartbeat/config"
+	"github.com/wangjia184/beats/heartbeat/monitors"
+	"github.com/wangjia184/beats/heartbeat/scheduler"
 )
 
 type Heartbeat struct {

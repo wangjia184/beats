@@ -3,9 +3,9 @@ package config
 import (
 	"time"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/common/droppriv"
-	"github.com/elastic/beats/packetbeat/procs"
+	"github.com/wangjia184/beats/libbeat/common"
+	"github.com/wangjia184/beats/libbeat/common/droppriv"
+	"github.com/wangjia184/beats/packetbeat/procs"
 )
 
 type Config struct {

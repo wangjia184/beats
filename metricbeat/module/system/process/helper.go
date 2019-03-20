@@ -9,11 +9,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/common/match"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/metricbeat/module/system"
-	"github.com/elastic/beats/metricbeat/module/system/memory"
+	"github.com/wangjia184/beats/libbeat/common"
+	"github.com/wangjia184/beats/libbeat/common/match"
+	"github.com/wangjia184/beats/libbeat/logp"
+	"github.com/wangjia184/beats/metricbeat/module/system"
+	"github.com/wangjia184/beats/metricbeat/module/system/memory"
 	sigar "github.com/elastic/gosigar"
 )
 

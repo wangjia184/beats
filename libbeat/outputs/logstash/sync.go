@@ -5,9 +5,9 @@ import (
 
 	"github.com/elastic/go-lumber/client/v2"
 
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/libbeat/outputs"
-	"github.com/elastic/beats/libbeat/outputs/transport"
+	"github.com/wangjia184/beats/libbeat/logp"
+	"github.com/wangjia184/beats/libbeat/outputs"
+	"github.com/wangjia184/beats/libbeat/outputs/transport"
 )
 
 const (

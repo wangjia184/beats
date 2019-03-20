@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"runtime"
 
-	"github.com/elastic/beats/libbeat/beat"
+	"github.com/wangjia184/beats/libbeat/beat"
 
-	"github.com/elastic/beats/packetbeat/sniffer"
+	"github.com/wangjia184/beats/packetbeat/sniffer"
 )
 
 func init() {

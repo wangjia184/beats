@@ -3,7 +3,7 @@ package process
 import (
 	"strconv"
 
-	"github.com/elastic/beats/libbeat/common"
+	"github.com/wangjia184/beats/libbeat/common"
 	"github.com/elastic/gosigar/cgroup"
 )
 

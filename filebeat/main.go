@@ -3,8 +3,8 @@ package main
 import (
 	"os"
 
-	"github.com/elastic/beats/filebeat/beater"
-	"github.com/elastic/beats/libbeat/beat"
+	"github.com/wangjia184/beats/filebeat/beater"
+	"github.com/wangjia184/beats/libbeat/beat"
 )
 
 var Name = "filebeat"

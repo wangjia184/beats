@@ -5,9 +5,9 @@ import (
 	"os"
 	"time"
 
-	"github.com/elastic/beats/filebeat/harvester/source"
-	"github.com/elastic/beats/filebeat/input/file"
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/wangjia184/beats/filebeat/harvester/source"
+	"github.com/wangjia184/beats/filebeat/input/file"
+	"github.com/wangjia184/beats/libbeat/logp"
 )
 
 type LogFile struct {

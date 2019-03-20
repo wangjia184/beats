@@ -7,10 +7,10 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/elastic/beats/filebeat/harvester"
-	"github.com/elastic/beats/filebeat/input"
-	"github.com/elastic/beats/filebeat/input/file"
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/wangjia184/beats/filebeat/harvester"
+	"github.com/wangjia184/beats/filebeat/input"
+	"github.com/wangjia184/beats/filebeat/input/file"
+	"github.com/wangjia184/beats/libbeat/logp"
 )
 
 var (
@@ -334,7 +334,7 @@ func (p *ProspectorLog) handleIgnoreOlder(lastState, newState file.State) error 
 	}
 
 	// Set offset to end of file to be consistent with files which were harvested before
-	// See https://github.com/elastic/beats/pull/2907
+	// See https://github.com/wangjia184/beats/pull/2907
 	newState.Offset = newState.Fileinfo.Size()
 
 	// Write state for ignore_older file as none exists yet

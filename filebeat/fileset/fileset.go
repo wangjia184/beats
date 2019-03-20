@@ -16,8 +16,8 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/elastic/beats/libbeat/common"
-	mlimporter "github.com/elastic/beats/libbeat/ml-importer"
+	"github.com/wangjia184/beats/libbeat/common"
+	mlimporter "github.com/wangjia184/beats/libbeat/ml-importer"
 )
 
 // Fileset struct is the representation of a fileset.

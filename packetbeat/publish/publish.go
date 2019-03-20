@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/libbeat/publisher"
+	"github.com/wangjia184/beats/libbeat/common"
+	"github.com/wangjia184/beats/libbeat/logp"
+	"github.com/wangjia184/beats/libbeat/publisher"
 	"github.com/nranchev/go-libGeoIP"
 )
 

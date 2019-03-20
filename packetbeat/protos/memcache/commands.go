@@ -4,8 +4,8 @@ package memcache
 // binary/text protocol based commands with setters and serializers.
 
 import (
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/common/streambuf"
+	"github.com/wangjia184/beats/libbeat/common"
+	"github.com/wangjia184/beats/libbeat/common/streambuf"
 )
 
 type commandType struct {

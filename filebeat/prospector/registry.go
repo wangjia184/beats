@@ -3,8 +3,8 @@ package prospector
 import (
 	"sync"
 
-	"github.com/elastic/beats/filebeat/harvester"
-	"github.com/elastic/beats/filebeat/harvester/reader"
+	"github.com/wangjia184/beats/filebeat/harvester"
+	"github.com/wangjia184/beats/filebeat/harvester/reader"
 	uuid "github.com/satori/go.uuid"
 )
 

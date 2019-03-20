@@ -4,10 +4,10 @@ import (
 	"errors"
 	"expvar"
 
-	"github.com/elastic/beats/filebeat/input"
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/libbeat/publisher"
+	"github.com/wangjia184/beats/filebeat/input"
+	"github.com/wangjia184/beats/libbeat/common"
+	"github.com/wangjia184/beats/libbeat/logp"
+	"github.com/wangjia184/beats/libbeat/publisher"
 )
 
 var (

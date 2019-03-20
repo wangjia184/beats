@@ -3,12 +3,12 @@ package dns
 import (
 	"encoding/binary"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/wangjia184/beats/libbeat/common"
+	"github.com/wangjia184/beats/libbeat/logp"
 
-	"github.com/elastic/beats/packetbeat/procs"
-	"github.com/elastic/beats/packetbeat/protos"
-	"github.com/elastic/beats/packetbeat/protos/tcp"
+	"github.com/wangjia184/beats/packetbeat/procs"
+	"github.com/wangjia184/beats/packetbeat/protos"
+	"github.com/wangjia184/beats/packetbeat/protos/tcp"
 
 	mkdns "github.com/miekg/dns"
 )

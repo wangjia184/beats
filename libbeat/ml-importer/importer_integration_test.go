@@ -8,8 +8,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/libbeat/outputs/elasticsearch"
+	"github.com/wangjia184/beats/libbeat/logp"
+	"github.com/wangjia184/beats/libbeat/outputs/elasticsearch"
 	"github.com/stretchr/testify/assert"
 )
 

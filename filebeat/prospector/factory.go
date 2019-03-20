@@ -1,10 +1,10 @@
 package prospector
 
 import (
-	"github.com/elastic/beats/filebeat/registrar"
-	"github.com/elastic/beats/libbeat/cfgfile"
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/wangjia184/beats/filebeat/registrar"
+	"github.com/wangjia184/beats/libbeat/cfgfile"
+	"github.com/wangjia184/beats/libbeat/common"
+	"github.com/wangjia184/beats/libbeat/logp"
 )
 
 type Factory struct {

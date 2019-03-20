@@ -178,7 +178,7 @@
                 "type": "log"
             },
             "read_timestamp": "2017-05-29T19:34:14.378Z",
-            "source": "/home/exekias/go/src/github.com/elastic/beats/filebeat/apache2.log"
+            "source": "/home/exekias/go/src/github.com/wangjia184/beats/filebeat/apache2.log"
         },
         "_type": "doc",
         "fields": {

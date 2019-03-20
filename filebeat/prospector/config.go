@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	cfg "github.com/elastic/beats/filebeat/config"
-	"github.com/elastic/beats/libbeat/common/match"
+	cfg "github.com/wangjia184/beats/filebeat/config"
+	"github.com/wangjia184/beats/libbeat/common/match"
 )
 
 var (

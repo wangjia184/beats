@@ -3,8 +3,8 @@ package container
 import (
 	"time"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/metricbeat/module/docker"
+	"github.com/wangjia184/beats/libbeat/common"
+	"github.com/wangjia184/beats/metricbeat/module/docker"
 
 	dc "github.com/fsouza/go-dockerclient"
 )

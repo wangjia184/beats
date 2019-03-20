@@ -6,11 +6,11 @@ services:
       - elasticsearch
     env_file:
       - ${PWD}/build/test.env
-    working_dir: /go/src/github.com/elastic/beats/filebeat
+    working_dir: /go/src/github.com/wangjia184/beats/filebeat
     volumes:
-      - ${PWD}/..:/go/src/github.com/elastic/beats/
+      - ${PWD}/..:/go/src/github.com/wangjia184/beats/
     command: make
-    entrypoint: /go/src/github.com/elastic/beats/filebeat/docker-entrypoint.sh
+    entrypoint: /go/src/github.com/wangjia184/beats/filebeat/docker-entrypoint.sh
 
   elasticsearch:
     extends:

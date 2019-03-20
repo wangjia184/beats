@@ -7,9 +7,9 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/elastic/beats/libbeat/common"
+	"github.com/wangjia184/beats/libbeat/common"
 
-	"github.com/elastic/beats/heartbeat/look"
+	"github.com/wangjia184/beats/heartbeat/look"
 )
 
 type funcJob struct {

@@ -36,7 +36,7 @@ def generate(go_beat_path):
 
 if __name__ == "__main__":
     # First argument is the beat path under GOPATH.
-    # (e.g. github.com/elastic/beats/packetbeat)
+    # (e.g. github.com/wangjia184/beats/packetbeat)
     go_beat_path = sys.argv[1]
 
     generate(go_beat_path)

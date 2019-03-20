@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/elastic/beats/filebeat/input/file"
+	"github.com/wangjia184/beats/filebeat/input/file"
 	"github.com/stretchr/testify/assert"
 )
 

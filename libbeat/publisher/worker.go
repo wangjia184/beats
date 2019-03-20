@@ -4,8 +4,8 @@ import (
 	"expvar"
 	"sync"
 
-	"github.com/elastic/beats/libbeat/common/op"
-	"github.com/elastic/beats/libbeat/outputs"
+	"github.com/wangjia184/beats/libbeat/common/op"
+	"github.com/wangjia184/beats/libbeat/outputs"
 )
 
 // Metrics that can retrieved through the expvar web interface.

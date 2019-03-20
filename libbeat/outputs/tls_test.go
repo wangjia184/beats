@@ -6,8 +6,8 @@ import (
 	"crypto/tls"
 	"testing"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/outputs/transport"
+	"github.com/wangjia184/beats/libbeat/common"
+	"github.com/wangjia184/beats/libbeat/outputs/transport"
 	"github.com/stretchr/testify/assert"
 )
 

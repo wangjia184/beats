@@ -3,9 +3,9 @@ package database
 import (
 	"database/sql"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/metricbeat/mb"
-	"github.com/elastic/beats/metricbeat/module/postgresql"
+	"github.com/wangjia184/beats/libbeat/common"
+	"github.com/wangjia184/beats/metricbeat/mb"
+	"github.com/wangjia184/beats/metricbeat/module/postgresql"
 	"github.com/pkg/errors"
 
 	// Register postgresql database/sql driver

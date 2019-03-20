@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/elastic/beats/libbeat/common/match"
+	"github.com/wangjia184/beats/libbeat/common/match"
 )
 
 // MultiLine reader combining multiple line events into one multi-line event.

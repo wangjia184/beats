@@ -12,7 +12,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/wangjia184/beats/libbeat/logp"
 	"gopkg.in/yaml.v2"
 )
 

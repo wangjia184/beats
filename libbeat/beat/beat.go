@@ -42,20 +42,20 @@ import (
 	"strings"
 	"time"
 
-	"github.com/elastic/beats/libbeat/cfgfile"
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/dashboards/dashboards"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/libbeat/paths"
-	"github.com/elastic/beats/libbeat/plugin"
-	"github.com/elastic/beats/libbeat/processors"
-	"github.com/elastic/beats/libbeat/publisher"
-	svc "github.com/elastic/beats/libbeat/service"
+	"github.com/wangjia184/beats/libbeat/cfgfile"
+	"github.com/wangjia184/beats/libbeat/common"
+	"github.com/wangjia184/beats/libbeat/dashboards/dashboards"
+	"github.com/wangjia184/beats/libbeat/logp"
+	"github.com/wangjia184/beats/libbeat/paths"
+	"github.com/wangjia184/beats/libbeat/plugin"
+	"github.com/wangjia184/beats/libbeat/processors"
+	"github.com/wangjia184/beats/libbeat/publisher"
+	svc "github.com/wangjia184/beats/libbeat/service"
 	"github.com/satori/go.uuid"
 
 	// Register default processors.
-	_ "github.com/elastic/beats/libbeat/processors/actions"
-	_ "github.com/elastic/beats/libbeat/processors/add_cloud_metadata"
+	_ "github.com/wangjia184/beats/libbeat/processors/actions"
+	_ "github.com/wangjia184/beats/libbeat/processors/add_cloud_metadata"
 )
 
 // Beater is the interface that must be implemented by every Beat. A Beater

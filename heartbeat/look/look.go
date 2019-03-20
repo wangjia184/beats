@@ -5,9 +5,9 @@ package look
 import (
 	"time"
 
-	"github.com/elastic/beats/libbeat/common"
+	"github.com/wangjia184/beats/libbeat/common"
 
-	"github.com/elastic/beats/heartbeat/reason"
+	"github.com/wangjia184/beats/heartbeat/reason"
 )
 
 func RTT(rtt time.Duration) common.MapStr {

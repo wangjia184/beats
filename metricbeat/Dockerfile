@@ -8,7 +8,7 @@ RUN set -x && \
     apt-get clean
 
 # Setup work environment
-ENV METRICBEAT_PATH /go/src/github.com/elastic/beats/metricbeat
+ENV METRICBEAT_PATH /go/src/github.com/wangjia184/beats/metricbeat
 
 RUN mkdir -p $METRICBEAT_PATH/build/coverage
 WORKDIR $METRICBEAT_PATH

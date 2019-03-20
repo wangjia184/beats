@@ -11,15 +11,15 @@ import (
 	metrics "github.com/rcrowley/go-metrics"
 	"github.com/rcrowley/go-metrics/exp"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/common/op"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/libbeat/monitoring"
-	"github.com/elastic/beats/libbeat/monitoring/adapter"
-	"github.com/elastic/beats/libbeat/outputs"
-	"github.com/elastic/beats/libbeat/outputs/mode"
-	"github.com/elastic/beats/libbeat/outputs/mode/modeutil"
-	"github.com/elastic/beats/libbeat/outputs/outil"
+	"github.com/wangjia184/beats/libbeat/common"
+	"github.com/wangjia184/beats/libbeat/common/op"
+	"github.com/wangjia184/beats/libbeat/logp"
+	"github.com/wangjia184/beats/libbeat/monitoring"
+	"github.com/wangjia184/beats/libbeat/monitoring/adapter"
+	"github.com/wangjia184/beats/libbeat/outputs"
+	"github.com/wangjia184/beats/libbeat/outputs/mode"
+	"github.com/wangjia184/beats/libbeat/outputs/mode/modeutil"
+	"github.com/wangjia184/beats/libbeat/outputs/outil"
 )
 
 type kafka struct {

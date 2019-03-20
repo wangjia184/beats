@@ -4,13 +4,13 @@ services:
     build: ${PWD}/.
     environment:
       - TEST_ENVIRONMENT=false
-    working_dir: /go/src/github.com/elastic/beats/metricbeat
+    working_dir: /go/src/github.com/wangjia184/beats/metricbeat
     volumes:
-      - ${PWD}/..:/go/src/github.com/elastic/beats/
+      - ${PWD}/..:/go/src/github.com/wangjia184/beats/
       # This is required for the docker module tests
       - /var/run/docker.sock:/var/run/docker.sock
     command: make
-    entrypoint: /go/src/github.com/elastic/beats/metricbeat/docker-entrypoint.sh
+    entrypoint: /go/src/github.com/wangjia184/beats/metricbeat/docker-entrypoint.sh
 
     # Module specific dependencies
     depends_on:

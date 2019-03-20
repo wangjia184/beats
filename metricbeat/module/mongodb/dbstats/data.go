@@ -1,8 +1,8 @@
 package dbstats
 
 import (
-	s "github.com/elastic/beats/metricbeat/schema"
-	c "github.com/elastic/beats/metricbeat/schema/mapstriface"
+	s "github.com/wangjia184/beats/metricbeat/schema"
+	c "github.com/wangjia184/beats/metricbeat/schema/mapstriface"
 )
 
 var schema = s.Schema{

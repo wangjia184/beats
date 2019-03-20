@@ -9,8 +9,8 @@ import (
 	"time"
 
 	"github.com/Shopify/sarama"
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/outputs"
+	"github.com/wangjia184/beats/libbeat/common"
+	"github.com/wangjia184/beats/libbeat/outputs"
 	"github.com/stretchr/testify/assert"
 )
 

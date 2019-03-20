@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"unsafe"
 
-	"github.com/elastic/beats/winlogbeat/sys"
+	"github.com/wangjia184/beats/winlogbeat/sys"
 )
 
 const (

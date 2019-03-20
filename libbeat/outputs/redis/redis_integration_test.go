@@ -13,12 +13,12 @@ import (
 
 	"github.com/garyburd/redigo/redis"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/common/fmtstr"
-	"github.com/elastic/beats/libbeat/outputs"
+	"github.com/wangjia184/beats/libbeat/common"
+	"github.com/wangjia184/beats/libbeat/common/fmtstr"
+	"github.com/wangjia184/beats/libbeat/outputs"
 
-	_ "github.com/elastic/beats/libbeat/outputs/codecs/format"
-	_ "github.com/elastic/beats/libbeat/outputs/codecs/json"
+	_ "github.com/wangjia184/beats/libbeat/outputs/codecs/format"
+	_ "github.com/wangjia184/beats/libbeat/outputs/codecs/json"
 )
 
 const (

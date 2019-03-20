@@ -18,13 +18,13 @@ import (
 
 	"github.com/satori/go.uuid"
 
-	"github.com/elastic/beats/filebeat/channel"
-	"github.com/elastic/beats/filebeat/config"
-	"github.com/elastic/beats/filebeat/harvester/encoding"
-	"github.com/elastic/beats/filebeat/harvester/source"
-	"github.com/elastic/beats/filebeat/input"
-	"github.com/elastic/beats/filebeat/input/file"
-	"github.com/elastic/beats/libbeat/common"
+	"github.com/wangjia184/beats/filebeat/channel"
+	"github.com/wangjia184/beats/filebeat/config"
+	"github.com/wangjia184/beats/filebeat/harvester/encoding"
+	"github.com/wangjia184/beats/filebeat/harvester/source"
+	"github.com/wangjia184/beats/filebeat/input"
+	"github.com/wangjia184/beats/filebeat/input/file"
+	"github.com/wangjia184/beats/libbeat/common"
 )
 
 var (

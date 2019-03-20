@@ -4,7 +4,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/elastic/beats/filebeat/input"
+	"github.com/wangjia184/beats/filebeat/input"
 )
 
 // Outlet struct is used to be passed to an object which needs an outlet

@@ -5,8 +5,8 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/elastic/beats/libbeat/outputs"
-	"github.com/elastic/beats/libbeat/outputs/mode"
+	"github.com/wangjia184/beats/libbeat/outputs"
+	"github.com/wangjia184/beats/libbeat/outputs/mode"
 )
 
 type failOverClient struct {

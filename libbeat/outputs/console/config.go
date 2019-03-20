@@ -1,7 +1,7 @@
 package console
 
 import (
-	"github.com/elastic/beats/libbeat/outputs"
+	"github.com/wangjia184/beats/libbeat/outputs"
 )
 
 type Config struct {

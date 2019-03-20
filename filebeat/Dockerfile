@@ -8,7 +8,7 @@ RUN set -x && \
     apt-get clean
 
 # Setup work environment
-ENV FILEBEAT_PATH /go/src/github.com/elastic/beats/filebeat
+ENV FILEBEAT_PATH /go/src/github.com/wangjia184/beats/filebeat
 
 RUN mkdir -p $FILEBEAT_PATH/build/coverage
 WORKDIR $FILEBEAT_PATH

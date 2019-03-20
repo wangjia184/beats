@@ -4,9 +4,9 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/elastic/beats/filebeat/input"
-	"github.com/elastic/beats/filebeat/registrar"
-	"github.com/elastic/beats/filebeat/spooler"
+	"github.com/wangjia184/beats/filebeat/input"
+	"github.com/wangjia184/beats/filebeat/registrar"
+	"github.com/wangjia184/beats/filebeat/spooler"
 )
 
 type spoolerOutlet struct {

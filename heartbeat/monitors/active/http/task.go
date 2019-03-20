@@ -11,13 +11,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/outputs/transport"
+	"github.com/wangjia184/beats/libbeat/common"
+	"github.com/wangjia184/beats/libbeat/outputs/transport"
 
-	"github.com/elastic/beats/heartbeat/look"
-	"github.com/elastic/beats/heartbeat/monitors"
-	"github.com/elastic/beats/heartbeat/monitors/active/dialchain"
-	"github.com/elastic/beats/heartbeat/reason"
+	"github.com/wangjia184/beats/heartbeat/look"
+	"github.com/wangjia184/beats/heartbeat/monitors"
+	"github.com/wangjia184/beats/heartbeat/monitors/active/dialchain"
+	"github.com/wangjia184/beats/heartbeat/reason"
 )
 
 func newHTTPMonitorHostJob(

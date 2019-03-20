@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/elastic/beats/libbeat/outputs"
+	"github.com/wangjia184/beats/libbeat/outputs"
 )
 
 type connConfig struct {

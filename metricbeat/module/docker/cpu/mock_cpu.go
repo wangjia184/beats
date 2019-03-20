@@ -1,7 +1,7 @@
 package cpu
 
 import (
-	"github.com/elastic/beats/libbeat/common"
+	"github.com/wangjia184/beats/libbeat/common"
 
 	dc "github.com/fsouza/go-dockerclient"
 	"github.com/stretchr/testify/mock"

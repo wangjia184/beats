@@ -1,4 +1,4 @@
-package: github.com/elastic/beats/dev-tools
+package: github.com/wangjia184/beats/dev-tools
 import: []
 testImports:
 - name: github.com/blakesmith/ar

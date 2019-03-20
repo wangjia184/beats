@@ -3,14 +3,14 @@ package beater
 import (
 	"sync"
 
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/libbeat/publisher"
-	"github.com/elastic/beats/metricbeat/mb"
-	"github.com/elastic/beats/metricbeat/mb/module"
+	"github.com/wangjia184/beats/libbeat/beat"
+	"github.com/wangjia184/beats/libbeat/common"
+	"github.com/wangjia184/beats/libbeat/logp"
+	"github.com/wangjia184/beats/libbeat/publisher"
+	"github.com/wangjia184/beats/metricbeat/mb"
+	"github.com/wangjia184/beats/metricbeat/mb/module"
 
-	"github.com/elastic/beats/libbeat/cfgfile"
+	"github.com/wangjia184/beats/libbeat/cfgfile"
 	"github.com/pkg/errors"
 )
 

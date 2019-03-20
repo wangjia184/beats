@@ -9,23 +9,23 @@ import (
 
 	"github.com/nranchev/go-libGeoIP"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/common/op"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/libbeat/outputs"
-	"github.com/elastic/beats/libbeat/processors"
+	"github.com/wangjia184/beats/libbeat/common"
+	"github.com/wangjia184/beats/libbeat/common/op"
+	"github.com/wangjia184/beats/libbeat/logp"
+	"github.com/wangjia184/beats/libbeat/outputs"
+	"github.com/wangjia184/beats/libbeat/processors"
 
 	// load supported output plugins
-	_ "github.com/elastic/beats/libbeat/outputs/console"
-	_ "github.com/elastic/beats/libbeat/outputs/elasticsearch"
-	_ "github.com/elastic/beats/libbeat/outputs/fileout"
-	_ "github.com/elastic/beats/libbeat/outputs/kafka"
-	_ "github.com/elastic/beats/libbeat/outputs/logstash"
-	_ "github.com/elastic/beats/libbeat/outputs/redis"
+	_ "github.com/wangjia184/beats/libbeat/outputs/console"
+	_ "github.com/wangjia184/beats/libbeat/outputs/elasticsearch"
+	_ "github.com/wangjia184/beats/libbeat/outputs/fileout"
+	_ "github.com/wangjia184/beats/libbeat/outputs/kafka"
+	_ "github.com/wangjia184/beats/libbeat/outputs/logstash"
+	_ "github.com/wangjia184/beats/libbeat/outputs/redis"
 
 	// load support output codec
-	_ "github.com/elastic/beats/libbeat/outputs/codecs/format"
-	_ "github.com/elastic/beats/libbeat/outputs/codecs/json"
+	_ "github.com/wangjia184/beats/libbeat/outputs/codecs/format"
+	_ "github.com/wangjia184/beats/libbeat/outputs/codecs/json"
 )
 
 // command line flags

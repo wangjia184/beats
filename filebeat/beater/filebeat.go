@@ -7,17 +7,17 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/libbeat/outputs/elasticsearch"
+	"github.com/wangjia184/beats/libbeat/beat"
+	"github.com/wangjia184/beats/libbeat/common"
+	"github.com/wangjia184/beats/libbeat/logp"
+	"github.com/wangjia184/beats/libbeat/outputs/elasticsearch"
 
-	cfg "github.com/elastic/beats/filebeat/config"
-	"github.com/elastic/beats/filebeat/crawler"
-	"github.com/elastic/beats/filebeat/fileset"
-	"github.com/elastic/beats/filebeat/publisher"
-	"github.com/elastic/beats/filebeat/registrar"
-	"github.com/elastic/beats/filebeat/spooler"
+	cfg "github.com/wangjia184/beats/filebeat/config"
+	"github.com/wangjia184/beats/filebeat/crawler"
+	"github.com/wangjia184/beats/filebeat/fileset"
+	"github.com/wangjia184/beats/filebeat/publisher"
+	"github.com/wangjia184/beats/filebeat/registrar"
+	"github.com/wangjia184/beats/filebeat/spooler"
 )
 
 var (

@@ -9,7 +9,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/elastic/beats/libbeat/paths"
+	"github.com/wangjia184/beats/libbeat/paths"
 )
 
 var (

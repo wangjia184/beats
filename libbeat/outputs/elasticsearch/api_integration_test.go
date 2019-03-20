@@ -9,7 +9,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/wangjia184/beats/libbeat/logp"
 	"github.com/stretchr/testify/assert"
 )
 

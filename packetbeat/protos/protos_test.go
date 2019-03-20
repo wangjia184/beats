@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/packetbeat/publish"
+	"github.com/wangjia184/beats/libbeat/common"
+	"github.com/wangjia184/beats/packetbeat/publish"
 
 	"github.com/stretchr/testify/assert"
 )

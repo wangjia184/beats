@@ -7,8 +7,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/elastic/beats/filebeat/input/file"
-	"github.com/elastic/beats/libbeat/common/match"
+	"github.com/wangjia184/beats/filebeat/input/file"
+	"github.com/wangjia184/beats/libbeat/common/match"
 )
 
 func TestProspectorInitInputTypeLogError(t *testing.T) {

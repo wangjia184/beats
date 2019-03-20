@@ -5,9 +5,9 @@ package status
 import (
 	"testing"
 
-	"github.com/elastic/beats/libbeat/common"
-	mbtest "github.com/elastic/beats/metricbeat/mb/testing"
-	"github.com/elastic/beats/metricbeat/module/mongodb"
+	"github.com/wangjia184/beats/libbeat/common"
+	mbtest "github.com/wangjia184/beats/metricbeat/mb/testing"
+	"github.com/wangjia184/beats/metricbeat/module/mongodb"
 	"github.com/stretchr/testify/assert"
 )
 

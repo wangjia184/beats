@@ -10,10 +10,10 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/logp"
-	mlimporter "github.com/elastic/beats/libbeat/ml-importer"
-	"github.com/elastic/beats/libbeat/paths"
+	"github.com/wangjia184/beats/libbeat/common"
+	"github.com/wangjia184/beats/libbeat/logp"
+	mlimporter "github.com/wangjia184/beats/libbeat/ml-importer"
+	"github.com/wangjia184/beats/libbeat/paths"
 )
 
 type ModuleRegistry struct {

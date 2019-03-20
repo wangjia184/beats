@@ -1,4 +1,4 @@
-package: github.com/elastic/beats/metricbeat/module/docker
+package: github.com/wangjia184/beats/metricbeat/module/docker
 import:
 - package: github.com/fsouza/go-dockerclient
   version: e085edda407c05214cc6e71e4881de47667e77ec

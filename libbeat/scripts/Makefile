@@ -2,7 +2,7 @@
 ### Application using libbeat may override the following variables in their Makefile
 BEAT_NAME?=libbeat ## @packaging Name of the application
 BEAT_DESCRIPTION?=Sends events to Elasticsearch or Logstash ## @packaging Description of the application
-BEAT_PATH?=github.com/elastic/beats/${BEAT_NAME}
+BEAT_PATH?=github.com/wangjia184/beats/${BEAT_NAME}
 BEAT_URL?=https://www.elastic.co/products/beats/${BEAT_NAME} ## @packaging Link to the homepage of the application
 BEAT_DOC_URL?=https://www.elastic.co/guide/en/beats/${BEAT_NAME}/current/index.html ## @packaging Link to the user documentation of the application
 BEAT_LICENSE?=ASL 2.0 ## @packaging Software license of the application
@@ -29,8 +29,8 @@ PWD=$(shell pwd)
 BUILD_DIR?=$(shell pwd)/build
 COVERAGE_DIR=${BUILD_DIR}/coverage
 COVERAGE_TOOL=${BEAT_GOPATH}/bin/gotestcover
-COVERAGE_TOOL_REPO=github.com/elastic/beats/vendor/github.com/pierrre/gotestcover
-TESTIFY_TOOL_REPO=github.com/elastic/beats/vendor/github.com/stretchr/testify
+COVERAGE_TOOL_REPO=github.com/wangjia184/beats/vendor/github.com/pierrre/gotestcover
+TESTIFY_TOOL_REPO=github.com/wangjia184/beats/vendor/github.com/stretchr/testify
 PROCESSES?= 4
 TIMEOUT?= 90
 NOSETESTS_OPTIONS?=--process-timeout=$(TIMEOUT) --with-timer ## @testing the options to pass when calling nosetests
@@ -265,7 +265,7 @@ docs:  ## @build Builds the documents for the beat
 .PHONY: docs-preview
 docs-preview:  ## @build Preview the documents for the beat in the browser
 	if [ ! -d "build/docs" ]; then $(MAKE) docs; fi;
-	${BUILD_DIR}/docs/build_docs.pl --chunk=1 -open chunk=1 -open --doc ${BEAT_GOPATH}/src/github.com/elastic/beats/${BEAT_NAME}/docs/index.asciidoc -out ${BUILD_DIR}/html_docs
+	${BUILD_DIR}/docs/build_docs.pl --chunk=1 -open chunk=1 -open --doc ${BEAT_GOPATH}/src/github.com/wangjia184/beats/${BEAT_NAME}/docs/index.asciidoc -out ${BUILD_DIR}/html_docs
 
 
 ### KIBANA FILES HANDLING ###

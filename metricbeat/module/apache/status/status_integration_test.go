@@ -5,8 +5,8 @@ package status
 import (
 	"testing"
 
-	mbtest "github.com/elastic/beats/metricbeat/mb/testing"
-	"github.com/elastic/beats/metricbeat/module/apache"
+	mbtest "github.com/wangjia184/beats/metricbeat/mb/testing"
+	"github.com/wangjia184/beats/metricbeat/module/apache"
 
 	"github.com/stretchr/testify/assert"
 )

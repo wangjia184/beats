@@ -10,9 +10,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/metricbeat/mb"
-	"github.com/elastic/beats/metricbeat/mb/parse"
+	"github.com/wangjia184/beats/libbeat/logp"
+	"github.com/wangjia184/beats/metricbeat/mb"
+	"github.com/wangjia184/beats/metricbeat/mb/parse"
 	"github.com/lib/pq"
 	"github.com/pkg/errors"
 )

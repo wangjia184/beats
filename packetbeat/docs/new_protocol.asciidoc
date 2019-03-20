@@ -29,7 +29,7 @@ implementation with a liberal enough license, you might be able to use it to
 parse and decode individual messages instead of writing your own parser.
 
 Before starting, please also read the
-https://github.com/elastic/beats/blob/master/packetbeat/CONTRIBUTING.md[CONTRIBUTING]
+https://github.com/wangjia184/beats/blob/master/packetbeat/CONTRIBUTING.md[CONTRIBUTING]
 file on GitHub.
 
 [float]
@@ -100,7 +100,7 @@ $ git push --set-upstream tsg cool_new_protocol
 
 We are working on updating this section. While you're waiting for updates, you
 might want to try out the TCP protocol generator at
-https://github.com/elastic/beats/tree/master/packetbeat/scripts/tcp-protocol.
+https://github.com/wangjia184/beats/tree/master/packetbeat/scripts/tcp-protocol.
 
 [[testing]]
 == Testing

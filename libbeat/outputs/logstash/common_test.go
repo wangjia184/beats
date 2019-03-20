@@ -4,7 +4,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/wangjia184/beats/libbeat/logp"
 )
 
 var enableLoggingOnce sync.Once

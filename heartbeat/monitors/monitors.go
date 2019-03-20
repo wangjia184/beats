@@ -5,7 +5,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/elastic/beats/libbeat/common"
+	"github.com/wangjia184/beats/libbeat/common"
 )
 
 type Factory func(*common.Config) ([]Job, error)

@@ -1,8 +1,8 @@
 package publisher
 
 import (
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/common/op"
+	"github.com/wangjia184/beats/libbeat/common"
+	"github.com/wangjia184/beats/libbeat/common/op"
 )
 
 // ClientOption allows API users to set additional options when publishing events.

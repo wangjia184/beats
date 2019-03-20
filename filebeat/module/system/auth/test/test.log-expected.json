@@ -27,7 +27,7 @@
         "version" : "6.0.0-alpha1"
       },
       "input_type" : "log",
-      "source" : "/Users/tsg/src/github.com/elastic/beats/filebeat/module/system/auth/test/test.log",
+      "source" : "/Users/tsg/src/github.com/wangjia184/beats/filebeat/module/system/auth/test/test.log",
       "fileset" : {
         "module" : "system",
         "name" : "auth"
@@ -62,7 +62,7 @@
         "version" : "6.0.0-alpha1"
       },
       "input_type" : "log",
-      "source" : "/Users/tsg/src/github.com/elastic/beats/filebeat/module/system/auth/test/test.log",
+      "source" : "/Users/tsg/src/github.com/wangjia184/beats/filebeat/module/system/auth/test/test.log",
       "fileset" : {
         "module" : "system",
         "name" : "auth"
@@ -96,7 +96,7 @@
         "version" : "6.0.0-alpha1"
       },
       "input_type" : "log",
-      "source" : "/Users/tsg/src/github.com/elastic/beats/filebeat/module/system/auth/test/test.log",
+      "source" : "/Users/tsg/src/github.com/wangjia184/beats/filebeat/module/system/auth/test/test.log",
       "fileset" : {
         "module" : "system",
         "name" : "auth"
@@ -128,7 +128,7 @@
         "version" : "6.0.0-alpha1"
       },
       "input_type" : "log",
-      "source" : "/Users/tsg/src/github.com/elastic/beats/filebeat/module/system/auth/test/test.log",
+      "source" : "/Users/tsg/src/github.com/wangjia184/beats/filebeat/module/system/auth/test/test.log",
       "fileset" : {
         "module" : "system",
         "name" : "auth"
@@ -164,7 +164,7 @@
         "version" : "6.0.0-alpha1"
       },
       "input_type" : "log",
-      "source" : "/Users/tsg/src/github.com/elastic/beats/filebeat/module/system/auth/test/test.log",
+      "source" : "/Users/tsg/src/github.com/wangjia184/beats/filebeat/module/system/auth/test/test.log",
       "fileset" : {
         "module" : "system",
         "name" : "auth"
@@ -197,7 +197,7 @@
         "version" : "6.0.0-alpha1"
       },
       "input_type" : "log",
-      "source" : "/Users/tsg/src/github.com/elastic/beats/filebeat/module/system/auth/test/test.log",
+      "source" : "/Users/tsg/src/github.com/wangjia184/beats/filebeat/module/system/auth/test/test.log",
       "fileset" : {
         "module" : "system",
         "name" : "auth"
@@ -233,7 +233,7 @@
         "version" : "6.0.0-alpha1"
       },
       "input_type" : "log",
-      "source" : "/Users/tsg/src/github.com/elastic/beats/filebeat/module/system/auth/test/test.log",
+      "source" : "/Users/tsg/src/github.com/wangjia184/beats/filebeat/module/system/auth/test/test.log",
       "fileset" : {
         "module" : "system",
         "name" : "auth"
@@ -270,7 +270,7 @@
         "version" : "6.0.0-alpha1"
       },
       "input_type" : "log",
-      "source" : "/Users/tsg/src/github.com/elastic/beats/filebeat/module/system/auth/test/test.log",
+      "source" : "/Users/tsg/src/github.com/wangjia184/beats/filebeat/module/system/auth/test/test.log",
       "fileset" : {
         "module" : "system",
         "name" : "auth"
@@ -316,7 +316,7 @@
         "version" : "6.0.0-alpha1"
       },
       "input_type" : "log",
-      "source" : "/Users/tsg/src/github.com/elastic/beats/filebeat/module/system/auth/test/test.log",
+      "source" : "/Users/tsg/src/github.com/wangjia184/beats/filebeat/module/system/auth/test/test.log",
       "fileset" : {
         "module" : "system",
         "name" : "auth"
@@ -351,7 +351,7 @@
         "version" : "6.0.0-alpha1"
       },
       "input_type" : "log",
-      "source" : "/Users/tsg/src/github.com/elastic/beats/filebeat/module/system/auth/test/test.log",
+      "source" : "/Users/tsg/src/github.com/wangjia184/beats/filebeat/module/system/auth/test/test.log",
       "fileset" : {
         "module" : "system",
         "name" : "auth"

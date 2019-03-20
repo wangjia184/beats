@@ -5,7 +5,7 @@ import (
 	"math"
 	"strconv"
 
-	"github.com/elastic/beats/libbeat/common"
+	"github.com/wangjia184/beats/libbeat/common"
 )
 
 type ConditionConfig struct {

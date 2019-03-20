@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/wangjia184/beats/libbeat/common"
+	"github.com/wangjia184/beats/libbeat/logp"
 
 	"github.com/joeshaw/multierror"
 	"github.com/pkg/errors"

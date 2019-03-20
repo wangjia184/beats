@@ -3,9 +3,9 @@ package module
 import (
 	"errors"
 
-	"github.com/elastic/beats/libbeat/plugin"
+	"github.com/wangjia184/beats/libbeat/plugin"
 
-	"github.com/elastic/beats/metricbeat/mb"
+	"github.com/wangjia184/beats/metricbeat/mb"
 )
 
 type modulePlugin struct {

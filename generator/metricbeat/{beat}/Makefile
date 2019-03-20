@@ -22,7 +22,7 @@ setup: copy-vendor
 copy-vendor:
 	mkdir -p vendor/github.com/elastic/
 	cp -R ${GOPATH}/src/github.com/elastic/beats vendor/github.com/elastic/
-	rm -rf vendor/github.com/elastic/beats/.git
+	rm -rf vendor/github.com/wangjia184/beats/.git
 
 .PHONY: update-deps
 update-deps:

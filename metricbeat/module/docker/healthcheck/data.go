@@ -5,10 +5,10 @@ import (
 
 	dc "github.com/fsouza/go-dockerclient"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/metricbeat/mb"
-	"github.com/elastic/beats/metricbeat/module/docker"
+	"github.com/wangjia184/beats/libbeat/common"
+	"github.com/wangjia184/beats/libbeat/logp"
+	"github.com/wangjia184/beats/metricbeat/mb"
+	"github.com/wangjia184/beats/metricbeat/module/docker"
 )
 
 func eventsMapping(containers []dc.APIContainers, m *MetricSet) []common.MapStr {

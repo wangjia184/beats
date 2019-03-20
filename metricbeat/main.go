@@ -10,10 +10,10 @@ package main
 import (
 	"os"
 
-	"github.com/elastic/beats/metricbeat/beater"
-	_ "github.com/elastic/beats/metricbeat/include"
+	"github.com/wangjia184/beats/metricbeat/beater"
+	_ "github.com/wangjia184/beats/metricbeat/include"
 
-	"github.com/elastic/beats/libbeat/beat"
+	"github.com/wangjia184/beats/libbeat/beat"
 )
 
 // Name of this Beat.

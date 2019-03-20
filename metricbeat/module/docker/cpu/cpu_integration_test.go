@@ -5,7 +5,7 @@ package cpu
 import (
 	"testing"
 
-	mbtest "github.com/elastic/beats/metricbeat/mb/testing"
+	mbtest "github.com/wangjia184/beats/metricbeat/mb/testing"
 )
 
 func TestData(t *testing.T) {

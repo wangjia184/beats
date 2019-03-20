@@ -3,11 +3,11 @@ package main
 import (
 	"os"
 
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/packetbeat/beater"
+	"github.com/wangjia184/beats/libbeat/beat"
+	"github.com/wangjia184/beats/packetbeat/beater"
 
 	// import protocol modules
-	_ "github.com/elastic/beats/packetbeat/include"
+	_ "github.com/wangjia184/beats/packetbeat/include"
 )
 
 var Name = "packetbeat"

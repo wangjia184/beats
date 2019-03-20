@@ -10,9 +10,9 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/elastic/beats/libbeat/outputs"
-	"github.com/elastic/beats/libbeat/outputs/transport"
-	"github.com/elastic/beats/metricbeat/mb"
+	"github.com/wangjia184/beats/libbeat/outputs"
+	"github.com/wangjia184/beats/libbeat/outputs/transport"
+	"github.com/wangjia184/beats/metricbeat/mb"
 )
 
 type HTTP struct {

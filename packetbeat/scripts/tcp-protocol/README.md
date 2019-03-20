@@ -7,7 +7,7 @@ want to create the protocol analyzer (stand-alone, within packetbeat based
 project or packetbeat itself):
 
 ```
-python ${GOPATH}/src/github.com/elastic/beats/packetbeat/scripts/create_tcp_protocol.py
+python ${GOPATH}/src/github.com/wangjia184/beats/packetbeat/scripts/create_tcp_protocol.py
 ```
 
 Note: If you have multiple go paths use `${GOPATH%%:*}`instead of `${GOPATH}`.
@@ -102,19 +102,19 @@ func echo(sock net.Conn) {
 Create analyzer skeleton from code generator template. 
 
 ```
-  $ cd ${GOPATH}/src/github.com/elastic/beats/packetbeat/protos
-  $ python ${GOPATH}/src/github.com/elastic/beats/packetbeat/script/create_tcp_protocol.py
+  $ cd ${GOPATH}/src/github.com/wangjia184/beats/packetbeat/protos
+  $ python ${GOPATH}/src/github.com/wangjia184/beats/packetbeat/script/create_tcp_protocol.py
 ```
 
-Load plugin into packetbeat by adding `_ "github.com/elastic/beats/packetbeat/protos/echo"` to packetbeat import list in `$GOPATH/src/github.com/elastic/beats/packetbeat/main.go`
+Load plugin into packetbeat by adding `_ "github.com/wangjia184/beats/packetbeat/protos/echo"` to packetbeat import list in `$GOPATH/src/github.com/wangjia184/beats/packetbeat/main.go`
 
 ### 2.2 Standalone beat with protocol analyzer (echo):
 
 Use packetbeat as framework to build custom beat (e.g. for testing) with
 selected protocol plugins only. A protocol plugin can still be added to
 packetbeat later by copying the final plugin to
-`$GOPATH/src/github.com/elastic/beats/packetbeat/protos` and importing module in
-`$GOPATH/src/github.com/elastic/beats/packetbeat/main.go`.
+`$GOPATH/src/github.com/wangjia184/beats/packetbeat/protos` and importing module in
+`$GOPATH/src/github.com/wangjia184/beats/packetbeat/main.go`.
 
 Create custom beat (e.g. github.com/<username>/pb_echo):
 
@@ -130,8 +130,8 @@ package main
 import (
 	"os"
 
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/packetbeat/beater"
+	"github.com/wangjia184/beats/libbeat/beat"
+	"github.com/wangjia184/beats/packetbeat/beater"
 
 	// import supported protocol modules
     _ "github.com/urso/pb_echo/protos/echo"
@@ -152,7 +152,7 @@ Create protocol analyzer module (use name ‘echo’ for new protocol):
 ```
 $ mkdir proto
 $ cd proto
-$ python ${GOPATH}/src/github.com/elastic/beats/packetbeat/script/create_tcp_protocol.py
+$ python ${GOPATH}/src/github.com/wangjia184/beats/packetbeat/script/create_tcp_protocol.py
 ```
 
 ### 3 Implement application layer analyzer

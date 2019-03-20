@@ -10,11 +10,11 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/libbeat/processors"
-	s "github.com/elastic/beats/metricbeat/schema"
-	c "github.com/elastic/beats/metricbeat/schema/mapstriface"
+	"github.com/wangjia184/beats/libbeat/common"
+	"github.com/wangjia184/beats/libbeat/logp"
+	"github.com/wangjia184/beats/libbeat/processors"
+	s "github.com/wangjia184/beats/metricbeat/schema"
+	c "github.com/wangjia184/beats/metricbeat/schema/mapstriface"
 	"github.com/pkg/errors"
 )
 

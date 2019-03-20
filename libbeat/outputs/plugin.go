@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 
-	p "github.com/elastic/beats/libbeat/plugin"
+	p "github.com/wangjia184/beats/libbeat/plugin"
 )
 
 type outputPlugin struct {

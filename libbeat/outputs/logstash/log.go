@@ -1,6 +1,6 @@
 package logstash
 
-import "github.com/elastic/beats/libbeat/logp"
+import "github.com/wangjia184/beats/libbeat/logp"
 
 type logstashLogger struct{}
 

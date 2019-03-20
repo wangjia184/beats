@@ -6,10 +6,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/libbeat/processors"
-	"github.com/elastic/beats/metricbeat/mb"
+	"github.com/wangjia184/beats/libbeat/common"
+	"github.com/wangjia184/beats/libbeat/logp"
+	"github.com/wangjia184/beats/libbeat/processors"
+	"github.com/wangjia184/beats/metricbeat/mb"
 
 	"github.com/joeshaw/multierror"
 	"github.com/mitchellh/hashstructure"

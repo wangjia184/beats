@@ -10,13 +10,13 @@ import (
 
 	"github.com/elastic/go-lumber/log"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/common/op"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/libbeat/outputs"
-	"github.com/elastic/beats/libbeat/outputs/mode"
-	"github.com/elastic/beats/libbeat/outputs/mode/modeutil"
-	"github.com/elastic/beats/libbeat/outputs/transport"
+	"github.com/wangjia184/beats/libbeat/common"
+	"github.com/wangjia184/beats/libbeat/common/op"
+	"github.com/wangjia184/beats/libbeat/logp"
+	"github.com/wangjia184/beats/libbeat/outputs"
+	"github.com/wangjia184/beats/libbeat/outputs/mode"
+	"github.com/wangjia184/beats/libbeat/outputs/mode/modeutil"
+	"github.com/wangjia184/beats/libbeat/outputs/transport"
 )
 
 var debug = logp.MakeDebug("logstash")

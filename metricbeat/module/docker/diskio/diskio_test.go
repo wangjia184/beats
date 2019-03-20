@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/elastic/beats/metricbeat/module/docker"
+	"github.com/wangjia184/beats/metricbeat/module/docker"
 
 	dc "github.com/fsouza/go-dockerclient"
 )

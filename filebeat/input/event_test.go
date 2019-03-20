@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/elastic/beats/filebeat/harvester/reader"
-	"github.com/elastic/beats/libbeat/common"
+	"github.com/wangjia184/beats/filebeat/harvester/reader"
+	"github.com/wangjia184/beats/libbeat/common"
 	"github.com/stretchr/testify/assert"
 )
 

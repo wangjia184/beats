@@ -1,10 +1,10 @@
 package module
 
 import (
-	"github.com/elastic/beats/libbeat/cfgfile"
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/publisher"
-	"github.com/elastic/beats/metricbeat/mb"
+	"github.com/wangjia184/beats/libbeat/cfgfile"
+	"github.com/wangjia184/beats/libbeat/common"
+	"github.com/wangjia184/beats/libbeat/publisher"
+	"github.com/wangjia184/beats/metricbeat/mb"
 )
 
 // Factory is used to register and reload modules

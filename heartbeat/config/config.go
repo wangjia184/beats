@@ -3,7 +3,7 @@
 
 package config
 
-import "github.com/elastic/beats/libbeat/common"
+import "github.com/wangjia184/beats/libbeat/common"
 
 type Config struct {
 	// Modules is a list of module specific configuration data.

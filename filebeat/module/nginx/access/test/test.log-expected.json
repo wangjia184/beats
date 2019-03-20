@@ -53,7 +53,7 @@
         "type" : "log"
       },
       "read_timestamp" : "2017-05-29T22:28:06.246Z",
-      "source" : "/Users/tsg/src/github.com/elastic/beats/filebeat/module/nginx/access/test/test.log",
+      "source" : "/Users/tsg/src/github.com/wangjia184/beats/filebeat/module/nginx/access/test/test.log",
       "fileset" : {
         "module" : "nginx",
         "name" : "access"
@@ -103,7 +103,7 @@
         "type" : "log"
       },
       "read_timestamp" : "2017-05-29T22:28:06.246Z",
-      "source" : "/Users/tsg/src/github.com/elastic/beats/filebeat/module/nginx/access/test/test.log",
+      "source" : "/Users/tsg/src/github.com/wangjia184/beats/filebeat/module/nginx/access/test/test.log",
       "fileset" : {
         "module" : "nginx",
         "name" : "access"
@@ -162,7 +162,7 @@
         "type" : "log"
       },
       "read_timestamp" : "2017-05-29T22:28:06.246Z",
-      "source" : "/Users/tsg/src/github.com/elastic/beats/filebeat/module/nginx/access/test/test.log",
+      "source" : "/Users/tsg/src/github.com/wangjia184/beats/filebeat/module/nginx/access/test/test.log",
       "fileset" : {
         "module" : "nginx",
         "name" : "access"
@@ -215,7 +215,7 @@
         "type" : "log"
       },
       "read_timestamp" : "2017-05-29T22:28:06.245Z",
-      "source" : "/Users/tsg/src/github.com/elastic/beats/filebeat/module/nginx/access/test/test.log",
+      "source" : "/Users/tsg/src/github.com/wangjia184/beats/filebeat/module/nginx/access/test/test.log",
       "fileset" : {
         "module" : "nginx",
         "name" : "access"
@@ -275,7 +275,7 @@
         "type" : "log"
       },
       "read_timestamp" : "2017-05-29T22:28:06.246Z",
-      "source" : "/Users/tsg/src/github.com/elastic/beats/filebeat/module/nginx/access/test/test.log",
+      "source" : "/Users/tsg/src/github.com/wangjia184/beats/filebeat/module/nginx/access/test/test.log",
       "fileset" : {
         "module" : "nginx",
         "name" : "access"
@@ -334,7 +334,7 @@
         "type" : "log"
       },
       "read_timestamp" : "2017-05-29T22:28:06.246Z",
-      "source" : "/Users/tsg/src/github.com/elastic/beats/filebeat/module/nginx/access/test/test.log",
+      "source" : "/Users/tsg/src/github.com/wangjia184/beats/filebeat/module/nginx/access/test/test.log",
       "fileset" : {
         "module" : "nginx",
         "name" : "access"

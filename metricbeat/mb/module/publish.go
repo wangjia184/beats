@@ -3,8 +3,8 @@ package module
 import (
 	"sync"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/publisher"
+	"github.com/wangjia184/beats/libbeat/common"
+	"github.com/wangjia184/beats/libbeat/publisher"
 )
 
 // PublishChannels publishes the events read from each channel to the given

@@ -3,10 +3,10 @@ package input
 import (
 	"time"
 
-	"github.com/elastic/beats/filebeat/harvester/reader"
-	"github.com/elastic/beats/filebeat/input/file"
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/common/jsontransform"
+	"github.com/wangjia184/beats/filebeat/harvester/reader"
+	"github.com/wangjia184/beats/filebeat/input/file"
+	"github.com/wangjia184/beats/libbeat/common"
+	"github.com/wangjia184/beats/libbeat/common/jsontransform"
 )
 
 // Event is sent to the output and must contain all relevant information

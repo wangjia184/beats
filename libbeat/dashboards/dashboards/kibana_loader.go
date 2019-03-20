@@ -6,9 +6,9 @@ import (
 	"io/ioutil"
 	"net/url"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/libbeat/setup/kibana"
+	"github.com/wangjia184/beats/libbeat/common"
+	"github.com/wangjia184/beats/libbeat/logp"
+	"github.com/wangjia184/beats/libbeat/setup/kibana"
 )
 
 var importAPI = "/api/kibana/dashboards/import"

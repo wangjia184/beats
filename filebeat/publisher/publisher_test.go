@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/elastic/beats/filebeat/input"
-	"github.com/elastic/beats/libbeat/common/op"
-	pubtest "github.com/elastic/beats/libbeat/publisher/testing"
+	"github.com/wangjia184/beats/filebeat/input"
+	"github.com/wangjia184/beats/libbeat/common/op"
+	pubtest "github.com/wangjia184/beats/libbeat/publisher/testing"
 	"github.com/stretchr/testify/assert"
 )
 

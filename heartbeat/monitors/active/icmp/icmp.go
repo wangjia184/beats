@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/wangjia184/beats/libbeat/common"
+	"github.com/wangjia184/beats/libbeat/logp"
 
-	"github.com/elastic/beats/heartbeat/look"
-	"github.com/elastic/beats/heartbeat/monitors"
+	"github.com/wangjia184/beats/heartbeat/look"
+	"github.com/wangjia184/beats/heartbeat/monitors"
 )
 
 func init() {
