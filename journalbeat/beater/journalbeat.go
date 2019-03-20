@@ -22,16 +22,16 @@ import (
 	"sync"
 	"time"
 
-	"github.com/elastic/beats/journalbeat/checkpoint"
-	"github.com/elastic/beats/journalbeat/cmd/instance"
-	"github.com/elastic/beats/journalbeat/input"
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/common/cfgwarn"
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/wangjia184/beats/journalbeat/checkpoint"
+	"github.com/wangjia184/beats/journalbeat/cmd/instance"
+	"github.com/wangjia184/beats/journalbeat/input"
+	"github.com/wangjia184/beats/libbeat/beat"
+	"github.com/wangjia184/beats/libbeat/common"
+	"github.com/wangjia184/beats/libbeat/common/cfgwarn"
+	"github.com/wangjia184/beats/libbeat/logp"
 
-	"github.com/elastic/beats/journalbeat/config"
-	_ "github.com/elastic/beats/journalbeat/include"
+	"github.com/wangjia184/beats/journalbeat/config"
+	_ "github.com/wangjia184/beats/journalbeat/include"
 )
 
 // Journalbeat instance

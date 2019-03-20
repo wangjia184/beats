@@ -24,11 +24,11 @@ import (
 	"net"
 	"testing"
 
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/wangjia184/beats/libbeat/beat"
+	"github.com/wangjia184/beats/libbeat/common"
+	"github.com/wangjia184/beats/libbeat/logp"
 
-	"github.com/elastic/beats/packetbeat/protos"
+	"github.com/wangjia184/beats/packetbeat/protos"
 
 	"github.com/tsg/gopacket"
 	"github.com/tsg/gopacket/layers"

@@ -23,8 +23,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/elastic/beats/libbeat/common/atomic"
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/wangjia184/beats/libbeat/common/atomic"
+	"github.com/wangjia184/beats/libbeat/logp"
 )
 
 const (

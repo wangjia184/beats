@@ -25,10 +25,10 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/common/cfgwarn"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/metricbeat/mb"
+	"github.com/wangjia184/beats/libbeat/common"
+	"github.com/wangjia184/beats/libbeat/common/cfgwarn"
+	"github.com/wangjia184/beats/libbeat/logp"
+	"github.com/wangjia184/beats/metricbeat/mb"
 
 	"github.com/vmware/govmomi"
 	"github.com/vmware/govmomi/property"

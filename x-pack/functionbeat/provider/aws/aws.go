@@ -5,8 +5,8 @@
 package aws
 
 import (
-	"github.com/elastic/beats/libbeat/feature"
-	"github.com/elastic/beats/x-pack/functionbeat/provider"
+	"github.com/wangjia184/beats/libbeat/feature"
+	"github.com/wangjia184/beats/x-pack/functionbeat/provider"
 )
 
 // Bundle exposes the trigger supported by the AWS provider.

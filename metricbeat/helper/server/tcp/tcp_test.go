@@ -26,8 +26,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/metricbeat/helper/server"
+	"github.com/wangjia184/beats/libbeat/logp"
+	"github.com/wangjia184/beats/metricbeat/helper/server"
 )
 
 func GetTestTcpServer(host string, port int) (server.Server, error) {

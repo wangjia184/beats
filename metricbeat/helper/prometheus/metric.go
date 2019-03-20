@@ -22,7 +22,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/elastic/beats/libbeat/common"
+	"github.com/wangjia184/beats/libbeat/common"
 
 	dto "github.com/prometheus/client_model/go"
 )

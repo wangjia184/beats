@@ -22,8 +22,8 @@ import (
 
 	"github.com/shirou/gopsutil/net"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/metricbeat/mb"
+	"github.com/wangjia184/beats/libbeat/common"
+	"github.com/wangjia184/beats/metricbeat/mb"
 )
 
 // init registers the MetricSet with the central registry as soon as the program

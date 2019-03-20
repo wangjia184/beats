@@ -20,15 +20,15 @@ package fileset
 import (
 	"github.com/gofrs/uuid"
 
-	"github.com/elastic/beats/filebeat/channel"
-	"github.com/elastic/beats/filebeat/input"
-	"github.com/elastic/beats/filebeat/registrar"
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/libbeat/cfgfile"
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/libbeat/monitoring"
-	"github.com/elastic/beats/libbeat/outputs/elasticsearch"
+	"github.com/wangjia184/beats/filebeat/channel"
+	"github.com/wangjia184/beats/filebeat/input"
+	"github.com/wangjia184/beats/filebeat/registrar"
+	"github.com/wangjia184/beats/libbeat/beat"
+	"github.com/wangjia184/beats/libbeat/cfgfile"
+	"github.com/wangjia184/beats/libbeat/common"
+	"github.com/wangjia184/beats/libbeat/logp"
+	"github.com/wangjia184/beats/libbeat/monitoring"
+	"github.com/wangjia184/beats/libbeat/outputs/elasticsearch"
 
 	"github.com/mitchellh/hashstructure"
 )

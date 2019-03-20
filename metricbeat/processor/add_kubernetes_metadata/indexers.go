@@ -18,8 +18,8 @@
 package add_kubernetes_metadata
 
 import (
-	"github.com/elastic/beats/libbeat/common"
-	kubernetes "github.com/elastic/beats/libbeat/processors/add_kubernetes_metadata"
+	"github.com/wangjia184/beats/libbeat/common"
+	kubernetes "github.com/wangjia184/beats/libbeat/processors/add_kubernetes_metadata"
 )
 
 func init() {

@@ -9,9 +9,9 @@ package pkg
 import (
 	"testing"
 
-	"github.com/elastic/beats/auditbeat/core"
-	abtest "github.com/elastic/beats/auditbeat/testing"
-	mbtest "github.com/elastic/beats/metricbeat/mb/testing"
+	"github.com/wangjia184/beats/auditbeat/core"
+	abtest "github.com/wangjia184/beats/auditbeat/testing"
+	mbtest "github.com/wangjia184/beats/metricbeat/mb/testing"
 )
 
 func TestData(t *testing.T) {

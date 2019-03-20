@@ -23,11 +23,11 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/elastic/beats/heartbeat/monitors"
-	"github.com/elastic/beats/heartbeat/monitors/jobs"
-	"github.com/elastic/beats/heartbeat/monitors/wrappers"
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/libbeat/outputs/transport"
+	"github.com/wangjia184/beats/heartbeat/monitors"
+	"github.com/wangjia184/beats/heartbeat/monitors/jobs"
+	"github.com/wangjia184/beats/heartbeat/monitors/wrappers"
+	"github.com/wangjia184/beats/libbeat/beat"
+	"github.com/wangjia184/beats/libbeat/outputs/transport"
 )
 
 // Builder maintains a DialerChain for building dialers and dialer based

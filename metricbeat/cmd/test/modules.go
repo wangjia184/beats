@@ -23,10 +23,10 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/elastic/beats/libbeat/cmd/instance"
-	"github.com/elastic/beats/libbeat/testing"
-	"github.com/elastic/beats/metricbeat/beater"
-	"github.com/elastic/beats/metricbeat/mb/module"
+	"github.com/wangjia184/beats/libbeat/cmd/instance"
+	"github.com/wangjia184/beats/libbeat/testing"
+	"github.com/wangjia184/beats/metricbeat/beater"
+	"github.com/wangjia184/beats/metricbeat/mb/module"
 )
 
 func GenTestModulesCmd(name, beatVersion string) *cobra.Command {

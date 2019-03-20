@@ -20,8 +20,8 @@ package pipeline
 import (
 	"sync"
 
-	"github.com/elastic/beats/libbeat/publisher"
-	"github.com/elastic/beats/libbeat/publisher/queue"
+	"github.com/wangjia184/beats/libbeat/publisher"
+	"github.com/wangjia184/beats/libbeat/publisher/queue"
 )
 
 type Batch struct {

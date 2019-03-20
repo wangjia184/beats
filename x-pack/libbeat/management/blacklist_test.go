@@ -9,8 +9,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/x-pack/libbeat/management/api"
+	"github.com/wangjia184/beats/libbeat/common"
+	"github.com/wangjia184/beats/x-pack/libbeat/management/api"
 )
 
 func TestConfigBlacklistSettingsUnpack(t *testing.T) {

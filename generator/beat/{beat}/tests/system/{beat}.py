@@ -1,6 +1,6 @@
 import os
 import sys
-sys.path.append('../../vendor/github.com/elastic/beats/libbeat/tests/system')
+sys.path.append('../../vendor/github.com/wangjia184/beats/libbeat/tests/system')
 from beat.beat import TestCase
 
 

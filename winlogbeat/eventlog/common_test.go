@@ -20,8 +20,8 @@ package eventlog
 import (
 	"testing"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/winlogbeat/checkpoint"
+	"github.com/wangjia184/beats/libbeat/common"
+	"github.com/wangjia184/beats/winlogbeat/checkpoint"
 )
 
 type factory func(*common.Config) (EventLog, error)

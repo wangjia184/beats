@@ -5,10 +5,10 @@
 package cmd
 
 import (
-	"github.com/elastic/beats/libbeat/cmd"
+	"github.com/wangjia184/beats/libbeat/cmd"
 
 	// register central management
-	_ "github.com/elastic/beats/x-pack/libbeat/management"
+	_ "github.com/wangjia184/beats/x-pack/libbeat/management"
 )
 
 // AddXPack extends the given root folder with XPack features

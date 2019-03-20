@@ -18,8 +18,8 @@
 package beater
 
 import (
-	"github.com/elastic/beats/filebeat/input/file"
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/wangjia184/beats/filebeat/input/file"
+	"github.com/wangjia184/beats/libbeat/logp"
 )
 
 // eventAcker handles publisher pipeline ACKs and forwards

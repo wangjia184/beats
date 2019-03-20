@@ -18,8 +18,8 @@
 package process
 
 import (
-	"github.com/elastic/beats/libbeat/common/cfgwarn"
-	"github.com/elastic/beats/libbeat/metric/system/process"
+	"github.com/wangjia184/beats/libbeat/common/cfgwarn"
+	"github.com/wangjia184/beats/libbeat/metric/system/process"
 )
 
 type Config struct {

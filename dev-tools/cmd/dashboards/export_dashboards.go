@@ -26,8 +26,8 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/elastic/beats/libbeat/dashboards"
-	"github.com/elastic/beats/libbeat/kibana"
+	"github.com/wangjia184/beats/libbeat/dashboards"
+	"github.com/wangjia184/beats/libbeat/kibana"
 )
 
 var (

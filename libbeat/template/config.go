@@ -17,7 +17,7 @@
 
 package template
 
-import "github.com/elastic/beats/libbeat/mapping"
+import "github.com/wangjia184/beats/libbeat/mapping"
 
 type TemplateConfig struct {
 	Enabled bool   `config:"enabled"`

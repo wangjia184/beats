@@ -13,11 +13,11 @@ import (
 	"github.com/aws/aws-lambda-go/lambda"
 	"github.com/awslabs/goformation/cloudformation"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/x-pack/functionbeat/core"
-	"github.com/elastic/beats/x-pack/functionbeat/provider"
-	"github.com/elastic/beats/x-pack/functionbeat/provider/aws/transformer"
+	"github.com/wangjia184/beats/libbeat/common"
+	"github.com/wangjia184/beats/libbeat/logp"
+	"github.com/wangjia184/beats/x-pack/functionbeat/core"
+	"github.com/wangjia184/beats/x-pack/functionbeat/provider"
+	"github.com/wangjia184/beats/x-pack/functionbeat/provider/aws/transformer"
 )
 
 const batchSize = 10

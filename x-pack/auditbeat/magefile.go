@@ -15,8 +15,8 @@ import (
 	"github.com/magefile/mage/sh"
 	"github.com/pkg/errors"
 
-	auditbeat "github.com/elastic/beats/auditbeat/scripts/mage"
-	"github.com/elastic/beats/dev-tools/mage"
+	auditbeat "github.com/wangjia184/beats/auditbeat/scripts/mage"
+	"github.com/wangjia184/beats/dev-tools/mage"
 )
 
 func init() {

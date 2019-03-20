@@ -25,7 +25,7 @@ import (
 	"github.com/StackExchange/wmi"
 	"github.com/stretchr/testify/assert"
 
-	mbtest "github.com/elastic/beats/metricbeat/mb/testing"
+	mbtest "github.com/wangjia184/beats/metricbeat/mb/testing"
 )
 
 type Win32Service struct {

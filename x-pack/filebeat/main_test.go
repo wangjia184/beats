@@ -8,7 +8,7 @@ import (
 	"flag"
 	"testing"
 
-	"github.com/elastic/beats/filebeat/cmd"
+	"github.com/wangjia184/beats/filebeat/cmd"
 )
 
 var systemTest *bool

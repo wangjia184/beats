@@ -20,10 +20,10 @@ package jolokia
 import (
 	"github.com/gofrs/uuid"
 
-	"github.com/elastic/beats/libbeat/autodiscover"
-	"github.com/elastic/beats/libbeat/autodiscover/template"
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/common/bus"
+	"github.com/wangjia184/beats/libbeat/autodiscover"
+	"github.com/wangjia184/beats/libbeat/autodiscover/template"
+	"github.com/wangjia184/beats/libbeat/common"
+	"github.com/wangjia184/beats/libbeat/common/bus"
 )
 
 func init() {

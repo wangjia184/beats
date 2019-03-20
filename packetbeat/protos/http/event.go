@@ -22,7 +22,7 @@ import (
 	"net/url"
 	"strconv"
 
-	"github.com/elastic/beats/libbeat/common"
+	"github.com/wangjia184/beats/libbeat/common"
 	"github.com/elastic/ecs/code/go/ecs"
 )
 

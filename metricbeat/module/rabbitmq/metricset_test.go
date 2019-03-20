@@ -20,11 +20,11 @@ package rabbitmq
 import (
 	"testing"
 
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/wangjia184/beats/libbeat/logp"
 
-	"github.com/elastic/beats/metricbeat/mb"
-	mbtest "github.com/elastic/beats/metricbeat/mb/testing"
-	"github.com/elastic/beats/metricbeat/module/rabbitmq/mtest"
+	"github.com/wangjia184/beats/metricbeat/mb"
+	mbtest "github.com/wangjia184/beats/metricbeat/mb/testing"
+	"github.com/wangjia184/beats/metricbeat/module/rabbitmq/mtest"
 )
 
 var logger = logp.NewLogger("rabbitmq")

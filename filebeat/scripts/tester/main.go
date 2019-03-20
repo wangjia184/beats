@@ -29,12 +29,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/common/match"
-	"github.com/elastic/beats/libbeat/reader"
-	"github.com/elastic/beats/libbeat/reader/multiline"
-	"github.com/elastic/beats/libbeat/reader/readfile"
-	"github.com/elastic/beats/libbeat/reader/readfile/encoding"
+	"github.com/wangjia184/beats/libbeat/common"
+	"github.com/wangjia184/beats/libbeat/common/match"
+	"github.com/wangjia184/beats/libbeat/reader"
+	"github.com/wangjia184/beats/libbeat/reader/multiline"
+	"github.com/wangjia184/beats/libbeat/reader/readfile"
+	"github.com/wangjia184/beats/libbeat/reader/readfile/encoding"
 )
 
 type logReaderConfig struct {

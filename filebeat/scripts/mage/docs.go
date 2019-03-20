@@ -20,7 +20,7 @@ package mage
 import (
 	"github.com/magefile/mage/sh"
 
-	"github.com/elastic/beats/dev-tools/mage"
+	"github.com/wangjia184/beats/dev-tools/mage"
 )
 
 // CollectDocs executes the Filebeat docs_collector script to collect/generate

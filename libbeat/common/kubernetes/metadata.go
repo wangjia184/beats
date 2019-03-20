@@ -20,8 +20,8 @@ package kubernetes
 import (
 	"strings"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/common/safemapstr"
+	"github.com/wangjia184/beats/libbeat/common"
+	"github.com/wangjia184/beats/libbeat/common/safemapstr"
 )
 
 // MetaGenerator builds metadata objects for pods and containers

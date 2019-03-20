@@ -23,11 +23,11 @@ import (
 	"io/ioutil"
 	"testing"
 
-	mbtest "github.com/elastic/beats/metricbeat/mb/testing"
+	mbtest "github.com/wangjia184/beats/metricbeat/mb/testing"
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/elastic/beats/metricbeat/module/elasticsearch"
+	"github.com/wangjia184/beats/metricbeat/module/elasticsearch"
 )
 
 var info = elasticsearch.Info{

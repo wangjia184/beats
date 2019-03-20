@@ -5,8 +5,8 @@
 package beater
 
 import (
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/x-pack/functionbeat/licenser"
+	"github.com/wangjia184/beats/libbeat/logp"
+	"github.com/wangjia184/beats/x-pack/functionbeat/licenser"
 )
 
 func checkLicense(log *logp.Logger, license licenser.License) bool {

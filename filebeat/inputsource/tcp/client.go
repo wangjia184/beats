@@ -26,9 +26,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/elastic/beats/filebeat/inputsource"
-	"github.com/elastic/beats/libbeat/common/transport/tlscommon"
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/wangjia184/beats/filebeat/inputsource"
+	"github.com/wangjia184/beats/libbeat/common/transport/tlscommon"
+	"github.com/wangjia184/beats/libbeat/logp"
 )
 
 // Client is a remote client.

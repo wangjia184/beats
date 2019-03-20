@@ -23,7 +23,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/elastic/beats/libbeat/testing"
+	"github.com/wangjia184/beats/libbeat/testing"
 )
 
 type Client struct {

@@ -20,9 +20,9 @@ package channel
 import (
 	"sync"
 
-	"github.com/elastic/beats/filebeat/util"
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/libbeat/common"
+	"github.com/wangjia184/beats/filebeat/util"
+	"github.com/wangjia184/beats/libbeat/beat"
+	"github.com/wangjia184/beats/libbeat/common"
 )
 
 type subOutlet struct {

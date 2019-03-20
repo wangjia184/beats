@@ -20,9 +20,9 @@ package pool
 import (
 	"encoding/json"
 
-	"github.com/elastic/beats/metricbeat/helper"
-	"github.com/elastic/beats/metricbeat/mb"
-	"github.com/elastic/beats/metricbeat/module/php_fpm"
+	"github.com/wangjia184/beats/metricbeat/helper"
+	"github.com/wangjia184/beats/metricbeat/mb"
+	"github.com/wangjia184/beats/metricbeat/module/php_fpm"
 )
 
 // init registers the MetricSet with the central registry.

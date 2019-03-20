@@ -22,14 +22,14 @@ import (
 
 	"github.com/spf13/pflag"
 
-	cmd "github.com/elastic/beats/libbeat/cmd"
-	"github.com/elastic/beats/libbeat/cmd/instance"
-	"github.com/elastic/beats/metricbeat/beater"
-	"github.com/elastic/beats/metricbeat/cmd/test"
+	cmd "github.com/wangjia184/beats/libbeat/cmd"
+	"github.com/wangjia184/beats/libbeat/cmd/instance"
+	"github.com/wangjia184/beats/metricbeat/beater"
+	"github.com/wangjia184/beats/metricbeat/cmd/test"
 
 	// import modules
-	_ "github.com/elastic/beats/metricbeat/include"
-	_ "github.com/elastic/beats/metricbeat/include/fields"
+	_ "github.com/wangjia184/beats/metricbeat/include"
+	_ "github.com/wangjia184/beats/metricbeat/include/fields"
 )
 
 // Name of this beat

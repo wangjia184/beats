@@ -29,8 +29,8 @@ import (
 	"github.com/docker/go-connections/tlsconfig"
 	"golang.org/x/net/context"
 
-	"github.com/elastic/beats/libbeat/common/bus"
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/wangjia184/beats/libbeat/common/bus"
+	"github.com/wangjia184/beats/libbeat/logp"
 )
 
 // Select Docker API version

@@ -11,8 +11,8 @@ import (
 	"io"
 	"math"
 
-	"github.com/elastic/beats/x-pack/filebeat/input/netflow/decoder/fields"
-	"github.com/elastic/beats/x-pack/filebeat/input/netflow/decoder/record"
+	"github.com/wangjia184/beats/x-pack/filebeat/input/netflow/decoder/fields"
+	"github.com/wangjia184/beats/x-pack/filebeat/input/netflow/decoder/record"
 )
 
 const (

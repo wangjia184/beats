@@ -32,8 +32,8 @@ git checkout $BRANCH
 cd $BASE_PATH
 
 # Replace libbeat with local libbeat version
-rm -r $APM_SERVER_DIR/vendor/github.com/elastic/beats/libbeat
-cp -r libbeat $APM_SERVER_DIR/vendor/github.com/elastic/beats/
+rm -r $APM_SERVER_DIR/vendor/github.com/wangjia184/beats/libbeat
+cp -r libbeat $APM_SERVER_DIR/vendor/github.com/wangjia184/beats/
 
 cd $APM_SERVER_DIR
 

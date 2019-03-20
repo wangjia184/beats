@@ -26,8 +26,8 @@ import (
 
 	"github.com/magefile/mage/mg"
 
-	"github.com/elastic/beats/dev-tools/mage"
-	filebeat "github.com/elastic/beats/filebeat/scripts/mage"
+	"github.com/wangjia184/beats/dev-tools/mage"
+	filebeat "github.com/wangjia184/beats/filebeat/scripts/mage"
 )
 
 func init() {

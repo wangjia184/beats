@@ -34,14 +34,14 @@ import (
 	"github.com/stretchr/testify/assert"
 	"gopkg.in/yaml.v2"
 
-	"github.com/elastic/beats/libbeat/asset"
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/mapping"
-	"github.com/elastic/beats/metricbeat/mb"
-	mbtesting "github.com/elastic/beats/metricbeat/mb/testing"
+	"github.com/wangjia184/beats/libbeat/asset"
+	"github.com/wangjia184/beats/libbeat/common"
+	"github.com/wangjia184/beats/libbeat/mapping"
+	"github.com/wangjia184/beats/metricbeat/mb"
+	mbtesting "github.com/wangjia184/beats/metricbeat/mb/testing"
 
-	_ "github.com/elastic/beats/metricbeat/include"
-	_ "github.com/elastic/beats/metricbeat/include/fields"
+	_ "github.com/wangjia184/beats/metricbeat/include"
+	_ "github.com/wangjia184/beats/metricbeat/include/fields"
 )
 
 const (

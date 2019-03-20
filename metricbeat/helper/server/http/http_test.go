@@ -27,7 +27,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/elastic/beats/metricbeat/helper/server"
+	"github.com/wangjia184/beats/metricbeat/helper/server"
 
 	"github.com/stretchr/testify/assert"
 )

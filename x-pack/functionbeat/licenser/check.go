@@ -5,7 +5,7 @@
 package licenser
 
 import (
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/wangjia184/beats/libbeat/logp"
 )
 
 // CheckFunc signature to implement a function that validate a license.

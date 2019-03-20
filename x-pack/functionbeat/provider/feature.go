@@ -4,7 +4,7 @@
 
 package provider
 
-import "github.com/elastic/beats/libbeat/feature"
+import "github.com/wangjia184/beats/libbeat/feature"
 
 // getNamespace return the namespace for functions of a specific provider. The registry have a flat view
 // representation of the plugin world this mean we don't really have a tree, instead what we do is

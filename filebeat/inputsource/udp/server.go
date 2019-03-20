@@ -24,8 +24,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/elastic/beats/filebeat/inputsource"
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/wangjia184/beats/filebeat/inputsource"
+	"github.com/wangjia184/beats/libbeat/logp"
 )
 
 // Name is the human readable name and identifier.

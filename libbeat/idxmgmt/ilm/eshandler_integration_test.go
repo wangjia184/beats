@@ -29,9 +29,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/elastic/beats/libbeat/idxmgmt/ilm"
-	"github.com/elastic/beats/libbeat/outputs/elasticsearch"
-	"github.com/elastic/beats/libbeat/outputs/outil"
+	"github.com/wangjia184/beats/libbeat/idxmgmt/ilm"
+	"github.com/wangjia184/beats/libbeat/outputs/elasticsearch"
+	"github.com/wangjia184/beats/libbeat/outputs/outil"
 )
 
 const (

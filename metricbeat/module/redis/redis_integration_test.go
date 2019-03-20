@@ -27,8 +27,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/elastic/beats/libbeat/tests/compose"
-	_ "github.com/elastic/beats/metricbeat/mb/testing"
+	"github.com/wangjia184/beats/libbeat/tests/compose"
+	_ "github.com/wangjia184/beats/metricbeat/mb/testing"
 )
 
 var host = GetRedisEnvHost() + ":" + GetRedisEnvPort()

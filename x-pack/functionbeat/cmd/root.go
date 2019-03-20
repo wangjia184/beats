@@ -5,10 +5,10 @@
 package cmd
 
 import (
-	cmd "github.com/elastic/beats/libbeat/cmd"
-	"github.com/elastic/beats/libbeat/cmd/instance"
-	"github.com/elastic/beats/x-pack/functionbeat/beater"
-	"github.com/elastic/beats/x-pack/functionbeat/config"
+	cmd "github.com/wangjia184/beats/libbeat/cmd"
+	"github.com/wangjia184/beats/libbeat/cmd/instance"
+	"github.com/wangjia184/beats/x-pack/functionbeat/beater"
+	"github.com/wangjia184/beats/x-pack/functionbeat/config"
 )
 
 // Name of this beat

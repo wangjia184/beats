@@ -17,7 +17,7 @@
 
 package codec
 
-import "github.com/elastic/beats/libbeat/beat"
+import "github.com/wangjia184/beats/libbeat/beat"
 
 type Codec interface {
 	Encode(index string, event *beat.Event) ([]byte, error)

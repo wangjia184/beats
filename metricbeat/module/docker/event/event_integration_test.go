@@ -30,9 +30,9 @@ import (
 	"github.com/docker/docker/client"
 	"golang.org/x/net/context"
 
-	"github.com/elastic/beats/auditbeat/core"
-	"github.com/elastic/beats/metricbeat/mb"
-	mbtest "github.com/elastic/beats/metricbeat/mb/testing"
+	"github.com/wangjia184/beats/auditbeat/core"
+	"github.com/wangjia184/beats/metricbeat/mb"
+	mbtest "github.com/wangjia184/beats/metricbeat/mb/testing"
 )
 
 func TestData(t *testing.T) {

@@ -13,8 +13,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/elastic/beats/x-pack/filebeat/input/netflow/decoder/template"
-	"github.com/elastic/beats/x-pack/filebeat/input/netflow/decoder/test"
+	"github.com/wangjia184/beats/x-pack/filebeat/input/netflow/decoder/template"
+	"github.com/wangjia184/beats/x-pack/filebeat/input/netflow/decoder/test"
 )
 
 func makeSessionKey(t testing.TB, ipPortPair string) SessionKey {

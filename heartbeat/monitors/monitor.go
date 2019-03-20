@@ -26,13 +26,13 @@ import (
 	"github.com/mitchellh/hashstructure"
 	"github.com/pkg/errors"
 
-	"github.com/elastic/beats/heartbeat/monitors/jobs"
-	"github.com/elastic/beats/heartbeat/monitors/wrappers"
-	"github.com/elastic/beats/heartbeat/scheduler"
-	"github.com/elastic/beats/heartbeat/watcher"
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/wangjia184/beats/heartbeat/monitors/jobs"
+	"github.com/wangjia184/beats/heartbeat/monitors/wrappers"
+	"github.com/wangjia184/beats/heartbeat/scheduler"
+	"github.com/wangjia184/beats/heartbeat/watcher"
+	"github.com/wangjia184/beats/libbeat/beat"
+	"github.com/wangjia184/beats/libbeat/common"
+	"github.com/wangjia184/beats/libbeat/logp"
 )
 
 // Monitor represents a configured recurring monitoring configuredJob loaded from a config file. Starting it

@@ -24,10 +24,10 @@ import (
 
 	"github.com/kubernetes/apimachinery/pkg/api/resource"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/common/kubernetes"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/metricbeat/mb"
+	"github.com/wangjia184/beats/libbeat/common"
+	"github.com/wangjia184/beats/libbeat/common/kubernetes"
+	"github.com/wangjia184/beats/libbeat/logp"
+	"github.com/wangjia184/beats/metricbeat/mb"
 )
 
 // Enricher takes Kubernetes events and enrich them with k8s metadata

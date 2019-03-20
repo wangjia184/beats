@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/elastic/beats/libbeat/common/transport/tlscommon"
+	"github.com/wangjia184/beats/libbeat/common/transport/tlscommon"
 )
 
 type metricsetConfig struct {

@@ -23,11 +23,11 @@ import (
 	"fmt"
 	"runtime"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/libbeat/metric/system/cpu"
-	"github.com/elastic/beats/libbeat/metric/system/process"
-	"github.com/elastic/beats/libbeat/monitoring"
+	"github.com/wangjia184/beats/libbeat/common"
+	"github.com/wangjia184/beats/libbeat/logp"
+	"github.com/wangjia184/beats/libbeat/metric/system/cpu"
+	"github.com/wangjia184/beats/libbeat/metric/system/process"
+	"github.com/wangjia184/beats/libbeat/monitoring"
 )
 
 var (

@@ -23,8 +23,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/elastic/beats/libbeat/publisher/queue"
-	"github.com/elastic/beats/libbeat/publisher/queue/queuetest"
+	"github.com/wangjia184/beats/libbeat/publisher/queue"
+	"github.com/wangjia184/beats/libbeat/publisher/queue/queuetest"
 )
 
 var seed int64

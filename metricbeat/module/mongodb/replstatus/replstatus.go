@@ -20,9 +20,9 @@ package replstatus
 import (
 	"gopkg.in/mgo.v2"
 
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/metricbeat/mb"
-	"github.com/elastic/beats/metricbeat/module/mongodb"
+	"github.com/wangjia184/beats/libbeat/logp"
+	"github.com/wangjia184/beats/metricbeat/mb"
+	"github.com/wangjia184/beats/metricbeat/module/mongodb"
 )
 
 var logger = logp.NewLogger("mongodb.replstatus")

@@ -32,7 +32,7 @@ import (
 	"github.com/magefile/mage/sh"
 	"github.com/pkg/errors"
 
-	"github.com/elastic/beats/libbeat/processors/dissect"
+	"github.com/wangjia184/beats/libbeat/processors/dissect"
 )
 
 // Check looks for created/modified/deleted/renamed files and returns an error

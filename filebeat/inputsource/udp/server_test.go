@@ -25,7 +25,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/elastic/beats/filebeat/inputsource"
+	"github.com/wangjia184/beats/filebeat/inputsource"
 )
 
 const maxMessageSize = 20

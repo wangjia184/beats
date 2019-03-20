@@ -7,7 +7,7 @@ package main
 import (
 	"os"
 
-	"github.com/elastic/beats/x-pack/functionbeat/cmd"
+	"github.com/wangjia184/beats/x-pack/functionbeat/cmd"
 )
 
 func main() {

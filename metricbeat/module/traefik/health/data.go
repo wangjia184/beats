@@ -18,9 +18,9 @@
 package health
 
 import (
-	"github.com/elastic/beats/libbeat/common"
-	s "github.com/elastic/beats/libbeat/common/schema"
-	c "github.com/elastic/beats/libbeat/common/schema/mapstriface"
+	"github.com/wangjia184/beats/libbeat/common"
+	s "github.com/wangjia184/beats/libbeat/common/schema"
+	c "github.com/wangjia184/beats/libbeat/common/schema/mapstriface"
 )
 
 var (

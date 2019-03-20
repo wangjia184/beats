@@ -22,12 +22,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/elastic/beats/libbeat/conditions"
+	"github.com/wangjia184/beats/libbeat/conditions"
 
-	"github.com/elastic/beats/libbeat/common/match"
-	"github.com/elastic/beats/libbeat/common/transport/tlscommon"
+	"github.com/wangjia184/beats/libbeat/common/match"
+	"github.com/wangjia184/beats/libbeat/common/transport/tlscommon"
 
-	"github.com/elastic/beats/heartbeat/monitors"
+	"github.com/wangjia184/beats/heartbeat/monitors"
 )
 
 type Config struct {

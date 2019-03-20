@@ -18,13 +18,13 @@
 package cmd
 
 import (
-	"github.com/elastic/beats/journalbeat/beater"
+	"github.com/wangjia184/beats/journalbeat/beater"
 
-	cmd "github.com/elastic/beats/libbeat/cmd"
-	"github.com/elastic/beats/libbeat/cmd/instance"
+	cmd "github.com/wangjia184/beats/libbeat/cmd"
+	"github.com/wangjia184/beats/libbeat/cmd/instance"
 
 	// Import the script processor.
-	_ "github.com/elastic/beats/libbeat/processors/script"
+	_ "github.com/wangjia184/beats/libbeat/processors/script"
 )
 
 // Name of this beat

@@ -31,9 +31,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/elastic/beats/libbeat/common"
-	sock "github.com/elastic/beats/metricbeat/helper/socket"
-	mbtest "github.com/elastic/beats/metricbeat/mb/testing"
+	"github.com/wangjia184/beats/libbeat/common"
+	sock "github.com/wangjia184/beats/metricbeat/helper/socket"
+	mbtest "github.com/wangjia184/beats/metricbeat/mb/testing"
 )
 
 func TestData(t *testing.T) {

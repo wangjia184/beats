@@ -14,7 +14,7 @@ package main
 import (
 	"os"
 
-	"github.com/elastic/beats/x-pack/metricbeat/cmd"
+	"github.com/wangjia184/beats/x-pack/metricbeat/cmd"
 )
 
 func main() {

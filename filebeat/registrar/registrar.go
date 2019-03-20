@@ -26,12 +26,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/elastic/beats/filebeat/config"
-	"github.com/elastic/beats/filebeat/input/file"
-	helper "github.com/elastic/beats/libbeat/common/file"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/libbeat/monitoring"
-	"github.com/elastic/beats/libbeat/paths"
+	"github.com/wangjia184/beats/filebeat/config"
+	"github.com/wangjia184/beats/filebeat/input/file"
+	helper "github.com/wangjia184/beats/libbeat/common/file"
+	"github.com/wangjia184/beats/libbeat/logp"
+	"github.com/wangjia184/beats/libbeat/monitoring"
+	"github.com/wangjia184/beats/libbeat/paths"
 )
 
 type Registrar struct {

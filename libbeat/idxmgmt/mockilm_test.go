@@ -20,10 +20,10 @@ package idxmgmt
 import (
 	"github.com/stretchr/testify/mock"
 
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/idxmgmt/ilm"
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/wangjia184/beats/libbeat/beat"
+	"github.com/wangjia184/beats/libbeat/common"
+	"github.com/wangjia184/beats/libbeat/idxmgmt/ilm"
+	"github.com/wangjia184/beats/libbeat/logp"
 )
 
 type mockILMSupport struct {

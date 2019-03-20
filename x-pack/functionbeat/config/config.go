@@ -11,7 +11,7 @@ import (
 	"fmt"
 	"regexp"
 
-	"github.com/elastic/beats/libbeat/common"
+	"github.com/wangjia184/beats/libbeat/common"
 )
 
 var (

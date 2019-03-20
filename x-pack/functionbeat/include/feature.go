@@ -5,9 +5,9 @@
 package include
 
 import (
-	"github.com/elastic/beats/libbeat/feature"
-	"github.com/elastic/beats/x-pack/functionbeat/provider/aws"
-	"github.com/elastic/beats/x-pack/functionbeat/provider/local"
+	"github.com/wangjia184/beats/libbeat/feature"
+	"github.com/wangjia184/beats/x-pack/functionbeat/provider/aws"
+	"github.com/wangjia184/beats/x-pack/functionbeat/provider/local"
 )
 
 // Bundle feature enabled.

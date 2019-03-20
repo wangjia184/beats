@@ -22,13 +22,13 @@ import (
 
 	"github.com/spf13/pflag"
 
-	"github.com/elastic/beats/filebeat/beater"
+	"github.com/wangjia184/beats/filebeat/beater"
 
-	cmd "github.com/elastic/beats/libbeat/cmd"
-	"github.com/elastic/beats/libbeat/cmd/instance"
+	cmd "github.com/wangjia184/beats/libbeat/cmd"
+	"github.com/wangjia184/beats/libbeat/cmd/instance"
 
 	// Import the script processor.
-	_ "github.com/elastic/beats/libbeat/processors/script"
+	_ "github.com/wangjia184/beats/libbeat/processors/script"
 )
 
 // Name of this beat

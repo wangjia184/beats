@@ -23,7 +23,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/elastic/beats/libbeat/generator/fields"
+	"github.com/wangjia184/beats/libbeat/generator/fields"
 )
 
 func main() {

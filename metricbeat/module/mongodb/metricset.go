@@ -23,9 +23,9 @@ import (
 
 	"gopkg.in/mgo.v2"
 
-	"github.com/elastic/beats/libbeat/common/transport/tlscommon"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/metricbeat/mb"
+	"github.com/wangjia184/beats/libbeat/common/transport/tlscommon"
+	"github.com/wangjia184/beats/libbeat/logp"
+	"github.com/wangjia184/beats/metricbeat/mb"
 )
 
 // ModuleConfig contains the common configuration for this module

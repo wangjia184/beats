@@ -96,7 +96,7 @@ The following example shows an event object in Lsbeat:
   "filename": "winlogbeat.yml",
   "filesize": 2895,
   "modtime": "2016-07-13T20:56:21.000Z",
-  "path": "./vendor/github.com/elastic/beats/winlogbeat/winlogbeat.yml",
+  "path": "./vendor/github.com/wangjia184/beats/winlogbeat/winlogbeat.yml",
   "type": "lsbeat"
 }
 
@@ -110,7 +110,7 @@ The following example shows an event object in Lsbeat:
   "filename": "system",
   "filesize": 238,
   "modtime": "2016-07-13T20:56:21.000Z",
-  "path": "./vendor/github.com/elastic/beats/winlogbeat/tests/system",
+  "path": "./vendor/github.com/wangjia184/beats/winlogbeat/tests/system",
   "type": "lsbeat"
 }
 ----------------------------------------------------------------------
@@ -140,7 +140,7 @@ NOTE: Python 2 is required (Python 3 will not work).
 
 [source,shell]
 --------------------
-python $GOPATH/src/github.com/elastic/beats/script/generate.py
+python $GOPATH/src/github.com/wangjia184/beats/script/generate.py
 --------------------
 
 Python will prompt you to enter information about your Beat. For the `project_name`, enter `Countbeat`.
@@ -475,9 +475,9 @@ package main
 import (
 	"os"
 
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/libbeat/cmd"
-	"github.com/elastic/beats/libbeat/cmd/instance"
+	"github.com/wangjia184/beats/libbeat/beat"
+	"github.com/wangjia184/beats/libbeat/cmd"
+	"github.com/wangjia184/beats/libbeat/cmd/instance"
 
 	"github.com/kimjmin/countbeat/beater"
 )

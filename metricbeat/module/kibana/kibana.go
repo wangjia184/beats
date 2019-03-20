@@ -23,11 +23,11 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/elastic/beats/libbeat/common"
+	"github.com/wangjia184/beats/libbeat/common"
 
-	"github.com/elastic/beats/metricbeat/helper"
-	"github.com/elastic/beats/metricbeat/helper/elastic"
-	"github.com/elastic/beats/metricbeat/mb"
+	"github.com/wangjia184/beats/metricbeat/helper"
+	"github.com/wangjia184/beats/metricbeat/helper/elastic"
+	"github.com/wangjia184/beats/metricbeat/mb"
 )
 
 // ModuleName is the name of this module

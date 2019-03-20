@@ -20,7 +20,7 @@ package mage
 import (
 	"github.com/pkg/errors"
 
-	"github.com/elastic/beats/dev-tools/mage"
+	"github.com/wangjia184/beats/dev-tools/mage"
 )
 
 // PackagingFlavor specifies the type of packaging (OSS vs X-Pack).

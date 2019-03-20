@@ -23,11 +23,11 @@ import (
 
 	"github.com/dustin/go-humanize"
 
-	"github.com/elastic/beats/filebeat/harvester"
-	"github.com/elastic/beats/filebeat/inputsource"
-	"github.com/elastic/beats/filebeat/inputsource/tcp"
-	"github.com/elastic/beats/filebeat/inputsource/udp"
-	"github.com/elastic/beats/libbeat/common"
+	"github.com/wangjia184/beats/filebeat/harvester"
+	"github.com/wangjia184/beats/filebeat/inputsource"
+	"github.com/wangjia184/beats/filebeat/inputsource/tcp"
+	"github.com/wangjia184/beats/filebeat/inputsource/udp"
+	"github.com/wangjia184/beats/libbeat/common"
 )
 
 type config struct {

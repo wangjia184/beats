@@ -20,8 +20,8 @@ package beater
 import (
 	"time"
 
-	"github.com/elastic/beats/libbeat/autodiscover"
-	"github.com/elastic/beats/libbeat/common"
+	"github.com/wangjia184/beats/libbeat/autodiscover"
+	"github.com/wangjia184/beats/libbeat/common"
 )
 
 // Config is the root of the Metricbeat configuration hierarchy.

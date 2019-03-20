@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/elastic/beats/libbeat/common/cfgtype"
-	"github.com/elastic/beats/libbeat/common/transport/tlscommon"
+	"github.com/wangjia184/beats/libbeat/common/cfgtype"
+	"github.com/wangjia184/beats/libbeat/common/transport/tlscommon"
 )
 
 // Name is the human readable name and identifier.

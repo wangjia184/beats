@@ -22,7 +22,7 @@ package state_node
 import (
 	"testing"
 
-	"github.com/elastic/beats/metricbeat/helper/prometheus/ptest"
+	"github.com/wangjia184/beats/metricbeat/helper/prometheus/ptest"
 )
 
 func TestEventMapping(t *testing.T) {

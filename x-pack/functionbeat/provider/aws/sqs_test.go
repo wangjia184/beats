@@ -11,8 +11,8 @@ import (
 	"github.com/aws/aws-lambda-go/events"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/x-pack/functionbeat/provider"
+	"github.com/wangjia184/beats/libbeat/common"
+	"github.com/wangjia184/beats/x-pack/functionbeat/provider"
 )
 
 func TestSQS(t *testing.T) {

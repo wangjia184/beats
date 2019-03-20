@@ -10,11 +10,11 @@ import (
 	"os"
 	"time"
 
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/feature"
-	"github.com/elastic/beats/x-pack/functionbeat/core"
-	"github.com/elastic/beats/x-pack/functionbeat/provider"
+	"github.com/wangjia184/beats/libbeat/beat"
+	"github.com/wangjia184/beats/libbeat/common"
+	"github.com/wangjia184/beats/libbeat/feature"
+	"github.com/wangjia184/beats/x-pack/functionbeat/core"
+	"github.com/wangjia184/beats/x-pack/functionbeat/provider"
 )
 
 const stdinName = "stdin"

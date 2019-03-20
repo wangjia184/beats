@@ -13,15 +13,15 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/libbeat/processors"
-	"github.com/elastic/beats/x-pack/functionbeat/config"
-	"github.com/elastic/beats/x-pack/functionbeat/core"
-	_ "github.com/elastic/beats/x-pack/functionbeat/include" // imports features
-	"github.com/elastic/beats/x-pack/functionbeat/licenser"
-	"github.com/elastic/beats/x-pack/functionbeat/provider"
+	"github.com/wangjia184/beats/libbeat/beat"
+	"github.com/wangjia184/beats/libbeat/common"
+	"github.com/wangjia184/beats/libbeat/logp"
+	"github.com/wangjia184/beats/libbeat/processors"
+	"github.com/wangjia184/beats/x-pack/functionbeat/config"
+	"github.com/wangjia184/beats/x-pack/functionbeat/core"
+	_ "github.com/wangjia184/beats/x-pack/functionbeat/include" // imports features
+	"github.com/wangjia184/beats/x-pack/functionbeat/licenser"
+	"github.com/wangjia184/beats/x-pack/functionbeat/provider"
 )
 
 var (

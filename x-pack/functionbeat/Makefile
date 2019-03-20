@@ -2,7 +2,7 @@ BEAT_NAME?=functionbeat
 LICENSE=Elastic
 BEAT_TITLE?=Functionbeat
 SYSTEM_TESTS?=true
-BEAT_PATH?=github.com/elastic/beats/x-pack/${BEAT_NAME}
+BEAT_PATH?=github.com/wangjia184/beats/x-pack/${BEAT_NAME}
 TEST_ENVIRONMENT?=true
 GOX_FLAGS=-arch="amd64 386 arm ppc64 ppc64le"
 ES_BEATS?=../../

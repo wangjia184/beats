@@ -26,25 +26,25 @@ import (
 
 	"github.com/tsg/gopacket/layers"
 
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/libbeat/processors"
-	"github.com/elastic/beats/libbeat/service"
+	"github.com/wangjia184/beats/libbeat/beat"
+	"github.com/wangjia184/beats/libbeat/common"
+	"github.com/wangjia184/beats/libbeat/logp"
+	"github.com/wangjia184/beats/libbeat/processors"
+	"github.com/wangjia184/beats/libbeat/service"
 
-	"github.com/elastic/beats/packetbeat/config"
-	"github.com/elastic/beats/packetbeat/decoder"
-	"github.com/elastic/beats/packetbeat/flows"
-	"github.com/elastic/beats/packetbeat/procs"
-	"github.com/elastic/beats/packetbeat/protos"
-	"github.com/elastic/beats/packetbeat/protos/icmp"
-	"github.com/elastic/beats/packetbeat/protos/tcp"
-	"github.com/elastic/beats/packetbeat/protos/udp"
-	"github.com/elastic/beats/packetbeat/publish"
-	"github.com/elastic/beats/packetbeat/sniffer"
+	"github.com/wangjia184/beats/packetbeat/config"
+	"github.com/wangjia184/beats/packetbeat/decoder"
+	"github.com/wangjia184/beats/packetbeat/flows"
+	"github.com/wangjia184/beats/packetbeat/procs"
+	"github.com/wangjia184/beats/packetbeat/protos"
+	"github.com/wangjia184/beats/packetbeat/protos/icmp"
+	"github.com/wangjia184/beats/packetbeat/protos/tcp"
+	"github.com/wangjia184/beats/packetbeat/protos/udp"
+	"github.com/wangjia184/beats/packetbeat/publish"
+	"github.com/wangjia184/beats/packetbeat/sniffer"
 
 	// Add packetbeat default processors
-	_ "github.com/elastic/beats/packetbeat/processor/add_kubernetes_metadata"
+	_ "github.com/wangjia184/beats/packetbeat/processor/add_kubernetes_metadata"
 )
 
 // Beater object. Contains all objects needed to run the beat

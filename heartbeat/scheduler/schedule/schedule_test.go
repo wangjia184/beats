@@ -22,8 +22,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/elastic/beats/heartbeat/scheduler"
-	"github.com/elastic/beats/heartbeat/scheduler/schedule/cron"
+	"github.com/wangjia184/beats/heartbeat/scheduler"
+	"github.com/wangjia184/beats/heartbeat/scheduler/schedule/cron"
 )
 
 func TestParse(t *testing.T) {

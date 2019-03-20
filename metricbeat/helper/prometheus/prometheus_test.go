@@ -27,8 +27,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/elastic/beats/libbeat/common"
-	mbtest "github.com/elastic/beats/metricbeat/mb/testing"
+	"github.com/wangjia184/beats/libbeat/common"
+	mbtest "github.com/wangjia184/beats/metricbeat/mb/testing"
 )
 
 const promMetrics = `

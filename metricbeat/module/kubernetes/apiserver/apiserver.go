@@ -18,8 +18,8 @@
 package apiserver
 
 import (
-	"github.com/elastic/beats/metricbeat/helper/prometheus"
-	"github.com/elastic/beats/metricbeat/mb"
+	"github.com/wangjia184/beats/metricbeat/helper/prometheus"
+	"github.com/wangjia184/beats/metricbeat/mb"
 )
 
 func init() {

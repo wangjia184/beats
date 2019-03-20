@@ -18,7 +18,7 @@
 package mage
 
 import (
-	"github.com/elastic/beats/dev-tools/mage"
+	"github.com/wangjia184/beats/dev-tools/mage"
 )
 
 const (

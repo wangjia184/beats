@@ -20,7 +20,7 @@ package conditions
 import (
 	"fmt"
 
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/wangjia184/beats/libbeat/logp"
 )
 
 type equalsValue struct {

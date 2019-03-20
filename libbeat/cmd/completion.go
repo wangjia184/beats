@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/elastic/beats/libbeat/cmd/instance"
+	"github.com/wangjia184/beats/libbeat/cmd/instance"
 
 	"github.com/spf13/cobra"
 )

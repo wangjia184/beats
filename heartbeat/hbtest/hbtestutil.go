@@ -32,9 +32,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/elastic/beats/heartbeat/monitors/wrappers"
-	"github.com/elastic/beats/libbeat/common/mapval"
-	"github.com/elastic/beats/libbeat/common/x509util"
+	"github.com/wangjia184/beats/heartbeat/monitors/wrappers"
+	"github.com/wangjia184/beats/libbeat/common/mapval"
+	"github.com/wangjia184/beats/libbeat/common/x509util"
 )
 
 // HelloWorldBody is the body of the HelloWorldHandler.

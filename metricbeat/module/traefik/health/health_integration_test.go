@@ -23,9 +23,9 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/elastic/beats/libbeat/tests/compose"
-	mbtest "github.com/elastic/beats/metricbeat/mb/testing"
-	"github.com/elastic/beats/metricbeat/module/traefik/mtest"
+	"github.com/wangjia184/beats/libbeat/tests/compose"
+	mbtest "github.com/wangjia184/beats/metricbeat/mb/testing"
+	"github.com/wangjia184/beats/metricbeat/module/traefik/mtest"
 
 	"github.com/stretchr/testify/assert"
 )

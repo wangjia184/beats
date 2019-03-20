@@ -23,7 +23,7 @@ import (
 	"net/url"
 	"path"
 
-	"github.com/elastic/beats/libbeat/common"
+	"github.com/wangjia184/beats/libbeat/common"
 )
 
 type esClientHandler struct {

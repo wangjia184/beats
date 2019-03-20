@@ -32,11 +32,11 @@ import (
 
 	"github.com/prometheus/procfs"
 
-	"github.com/elastic/beats/auditbeat/core"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/libbeat/mapping"
-	"github.com/elastic/beats/metricbeat/mb"
-	mbtest "github.com/elastic/beats/metricbeat/mb/testing"
+	"github.com/wangjia184/beats/auditbeat/core"
+	"github.com/wangjia184/beats/libbeat/logp"
+	"github.com/wangjia184/beats/libbeat/mapping"
+	"github.com/wangjia184/beats/metricbeat/mb"
+	mbtest "github.com/wangjia184/beats/metricbeat/mb/testing"
 	"github.com/elastic/go-libaudit"
 	"github.com/elastic/go-libaudit/auparse"
 )

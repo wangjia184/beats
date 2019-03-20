@@ -8,7 +8,7 @@ import (
 	"bytes"
 	"net"
 
-	"github.com/elastic/beats/x-pack/filebeat/input/netflow/decoder/record"
+	"github.com/wangjia184/beats/x-pack/filebeat/input/netflow/decoder/record"
 )
 
 // Protocol is the interface that NetFlow protocol parsers must conform to.

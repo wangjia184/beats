@@ -21,9 +21,9 @@ import (
 	"bytes"
 	stdjson "encoding/json"
 
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/outputs/codec"
+	"github.com/wangjia184/beats/libbeat/beat"
+	"github.com/wangjia184/beats/libbeat/common"
+	"github.com/wangjia184/beats/libbeat/outputs/codec"
 	"github.com/elastic/go-structform/gotype"
 	"github.com/elastic/go-structform/json"
 )

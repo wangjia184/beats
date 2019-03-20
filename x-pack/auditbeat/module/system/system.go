@@ -7,7 +7,7 @@ package system
 import (
 	"github.com/pkg/errors"
 
-	"github.com/elastic/beats/metricbeat/mb"
+	"github.com/wangjia184/beats/metricbeat/mb"
 	"github.com/elastic/go-sysinfo"
 )
 

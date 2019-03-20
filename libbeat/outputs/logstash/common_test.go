@@ -18,7 +18,7 @@
 package logstash
 
 import (
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/wangjia184/beats/libbeat/logp"
 )
 
 func enableLogging(selectors []string) {

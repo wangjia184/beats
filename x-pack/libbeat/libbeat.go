@@ -7,9 +7,9 @@ package main
 import (
 	"os"
 
-	"github.com/elastic/beats/libbeat/cmd"
-	"github.com/elastic/beats/libbeat/mock"
-	xpackcmd "github.com/elastic/beats/x-pack/libbeat/cmd"
+	"github.com/wangjia184/beats/libbeat/cmd"
+	"github.com/wangjia184/beats/libbeat/mock"
+	xpackcmd "github.com/wangjia184/beats/x-pack/libbeat/cmd"
 )
 
 // RootCmd to test libbeat

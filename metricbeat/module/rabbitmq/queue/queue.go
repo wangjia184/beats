@@ -18,8 +18,8 @@
 package queue
 
 import (
-	"github.com/elastic/beats/metricbeat/mb"
-	"github.com/elastic/beats/metricbeat/module/rabbitmq"
+	"github.com/wangjia184/beats/metricbeat/mb"
+	"github.com/wangjia184/beats/metricbeat/module/rabbitmq"
 )
 
 func init() {
