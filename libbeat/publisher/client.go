@@ -169,18 +169,18 @@ func (c *client) PublishEvents(events []common.MapStr, opts ...ClientOption) boo
 func (c *client) annotateEvent(event common.MapStr) {
 	// Allow an event to override the destination index for an event by setting
 	// beat.index in an event.
-	beatMeta := c.beatMeta
-	if beatIfc, ok := event["beat"]; ok {
-		ms, ok := beatIfc.(common.MapStr)
-		if ok {
+	//beatMeta := c.beatMeta
+	//if beatIfc, ok := event["beat"]; ok {
+	//	ms, ok := beatIfc.(common.MapStr)
+	//	if ok {
 			// Copy beatMeta so the defaults are not changed.
-			beatMeta = common.MapStrUnion(beatMeta, ms)
-		}
-	}
-	event["beat"] = beatMeta
+	//		beatMeta = common.MapStrUnion(beatMeta, ms)
+	//	}
+	//}
+	//event["beat"] = beatMeta
 
 	// Add the global tags and fields defined under shipper.
-	common.AddTags(event, c.globalEventMetadata.Tags)
+	//common.AddTags(event, c.globalEventMetadata.Tags)
 	common.MergeFields(event, c.globalEventMetadata.Fields, c.globalEventMetadata.FieldsUnderRoot)
 
 	// Add the event specific fields last so that they precedence over globals.

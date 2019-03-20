@@ -299,7 +299,7 @@ func (publisher *BeatPublisher) init(
 	}
 	logp.Info("Publisher name: %s", publisher.name)
 
-	publisher.globalEventMetadata = shipper.EventMetadata
+	//publisher.globalEventMetadata = shipper.EventMetadata
 
 	//Store the publisher's IP addresses
 	publisher.IPAddrs, err = common.LocalIPAddrsAsStrings(false)
