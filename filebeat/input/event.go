@@ -35,18 +35,20 @@ func (e *Event) ToMapStr() common.MapStr {
 	event := common.MapStr{
 		common.EventMetadataKey: e.EventMetadata,
 		"@timestamp":            common.Time(e.ReadTime),
-		"source":                e.State.Source,
-		"offset":                e.State.Offset, // Offset here is the offset before the starting char.
-		"type":                  e.DocumentType,
-		"input_type":            e.InputType,
+		//"source":                e.State.Source,
+		//"offset":                e.State.Offset, // Offset here is the offset before the starting char.
+		"type": e.DocumentType,
+		//"input_type":            e.InputType,
 	}
 
-	if e.Fileset != "" && e.Module != "" {
-		event["fileset"] = common.MapStr{
-			"name":   e.Fileset,
-			"module": e.Module,
+	/*
+		if e.Fileset != "" && e.Module != "" {
+			event["fileset"] = common.MapStr{
+				"name":   e.Fileset,
+				"module": e.Module,
+			}
 		}
-	}
+	*/
 
 	// Add data fields which are added by the readers
 	for key, value := range e.Data {

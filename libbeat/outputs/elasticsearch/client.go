@@ -94,7 +94,7 @@ var (
 )
 
 const (
-	eventType = "doc"
+//eventType = "doc"
 )
 
 // NewClient instantiates a new client.
@@ -325,7 +325,7 @@ func createEventBulkMeta(
 		return bulkMeta{
 			Index: bulkMetaIndex{
 				Index:   getIndex(event, index),
-				DocType: eventType,
+				DocType: getEventType(event),
 			},
 		}
 	}
@@ -343,7 +343,7 @@ func createEventBulkMeta(
 		Index: bulkMetaIndex{
 			Index:    getIndex(event, index),
 			Pipeline: pipeline,
-			DocType:  eventType,
+			DocType:  getEventType(event),
 		},
 	}
 }
@@ -364,6 +364,15 @@ func getPipeline(data outputs.Data, pipelineSel *outil.Selector) (string, error)
 	return "", nil
 }
 
+func getEventType(event common.MapStr) string {
+	if dynamicIndex, ok := event["type"]; ok {
+		if dynamicIndexValue, ok := dynamicIndex.(string); ok {
+			return dynamicIndexValue
+		}
+	}
+	return "doc"
+}
+
 // getIndex returns the full index name
 // Index is either defined in the config as part of the output
 // or can be overload by the event through setting index
@@ -371,20 +380,24 @@ func getIndex(event common.MapStr, index outil.Selector) string {
 
 	ts := time.Time(event["@timestamp"].(common.Time)).UTC()
 
-	// Check for dynamic index
-	// XXX: is this used/needed?
-	if _, ok := event["beat"]; ok {
-		beatMeta, ok := event["beat"].(common.MapStr)
-		if ok {
-			// Check if index is set dynamically
-			if dynamicIndex, ok := beatMeta["index"]; ok {
-				if dynamicIndexValue, ok := dynamicIndex.(string); ok {
-					return fmt.Sprintf("%s-%d.%02d.%02d",
-						dynamicIndexValue, ts.Year(), ts.Month(), ts.Day())
-				}
-			}
+	if dynamicIndex, ok := event["type"]; ok {
+		if dynamicIndexValue, ok := dynamicIndex.(string); ok {
+			return fmt.Sprintf("%s-%d.%02d.%02d",
+				dynamicIndexValue, ts.Year(), ts.Month(), ts.Day())
 		}
 	}
+
+	/*
+		// Check for dynamic index
+		// XXX: is this used/needed?
+		if _, ok := event["beat"]; ok {
+			beatMeta, ok := event["beat"].(common.MapStr)
+			if ok {
+				// Check if index is set dynamically
+
+			}
+		}
+	*/
 
 	str, _ := index.Select(event)
 	return str
@@ -553,9 +566,9 @@ func (client *Client) PublishEvent(data outputs.Data) error {
 
 	var status int
 	if pipeline == "" {
-		status, _, err = client.Index(index, eventType, "", client.params, event)
+		status, _, err = client.Index(index, getEventType(event), "", client.params, event)
 	} else {
-		status, _, err = client.Ingest(index, eventType, pipeline, "", client.params, event)
+		status, _, err = client.Ingest(index, getEventType(event), pipeline, "", client.params, event)
 	}
 
 	// check indexing error
