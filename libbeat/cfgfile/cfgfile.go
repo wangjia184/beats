@@ -15,7 +15,7 @@ var (
 	// The default config cannot include the beat name as it is not initialized
 	// when this variable is created. See ChangeDefaultCfgfileFlag which should
 	// be called prior to flags.Parse().
-	configfiles = flagArgList("c", "beat.yml", "Configuration file, relative to path.config")
+	configfiles = flagArgList("c", ".\filebeat.yml", "Configuration file, relative to path.config")
 	overwrites  = common.NewFlagConfig(nil, nil, "E", "Configuration overwrite")
 	testConfig  = flag.Bool("configtest", false, "Test configuration and exit.")
 
@@ -24,7 +24,7 @@ var (
 		"path": map[string]interface{}{
 			"home":   ".", // to be initialized by beat
 			"config": "${path.home}",
-			"data":   fmt.Sprint("${path.home}", string(os.PathSeparator), "data"),
+			"data":   fmt.Sprint("${path.home}", string(os.PathSeparator), "logs"),
 			"logs":   fmt.Sprint("${path.home}", string(os.PathSeparator), "logs"),
 		},
 	})
