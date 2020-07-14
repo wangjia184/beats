@@ -3,7 +3,9 @@ package main
 import (
 	"os"
 	"runtime"
+	"strconv"
 	"syscall"
+	"time"
 
 	"github.com/wangjia184/beats/filebeat/beater"
 	"github.com/wangjia184/beats/libbeat/beat"
@@ -41,6 +43,19 @@ func main() {
 			if err == nil {
 				syscall.Syscall(setProcessAffinityMask, 2, handle, 1, 0)
 			}
+		}
+	}
+
+	processId, err := strconv.Atoi(os.Getenv("ParentProcess.ID"))
+
+	if err == nil && processId > 0 {
+		process, err := os.FindProcess(processId)
+		if err == nil {
+			go (func() {
+				process.Wait()
+				time.Sleep(15 * time.Second)
+				os.Exit(0)
+			})()
 		}
 	}
 
